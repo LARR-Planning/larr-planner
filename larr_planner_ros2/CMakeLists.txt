@@ -12,7 +12,6 @@ find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(PCL REQUIRED)
 #find_package(pcl_conversions REQUIRED)
-
 find_package(larr_planner REQUIRED)
 #find_package(los_keeper_msgs REQUIRED)
 
