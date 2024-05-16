@@ -28,7 +28,7 @@ jobs:
       - uses: DoozyX/clang-format-lint-action@v0.16.1
         with:
           source: '.'
-          extensions: 'cpp,h'
+          extensions: 'cc,h'
           style: file
           clangFormatVersion: '10'
           check-path: '.'
