@@ -7,7 +7,7 @@ find_package(Eigen3 REQUIRED)
 find_package(PCL REQUIRED COMPONENTS common)
 
 file(GLOB_RECURSE LIBRARY_HDRS "include/larr_planner/*.h")
-file(GLOB_RECURSE LIBRARY_SRCS "src/*.cpp")
+file(GLOB_RECURSE LIBRARY_SRCS "src/*.cc")
 
 add_library(${PROJECT_NAME} STATIC ${LIBRARY_SRCS} ${LIBRARY_HDRS})
 target_link_libraries(${PROJECT_NAME} ${PCL_LIBRARIES} pthread)
