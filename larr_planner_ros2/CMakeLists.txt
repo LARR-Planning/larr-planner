@@ -22,6 +22,7 @@ target_include_directories(
         planning_server PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
+
 target_link_libraries(planning_server larr_planner)
 
 #add_library(los_server src/los_server/los_server.cc)
