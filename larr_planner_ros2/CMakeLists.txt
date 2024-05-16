@@ -11,10 +11,18 @@ find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(PCL REQUIRED)
-find_package(pcl_conversions REQUIRED)
+#find_package(pcl_conversions REQUIRED)
 
-#find_package(los_keeper REQUIRED)
+find_package(larr_planner REQUIRED)
 #find_package(los_keeper_msgs REQUIRED)
+
+add_library(planning_server src/planning_server/planning_server.cpp)
+ament_target_dependencies(planning_server rclcpp sensor_msgs geometry_msgs)
+target_include_directories(
+        planning_server PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:include>
+)
+target_link_libraries(planning_server larr_planner)
 
 #add_library(los_server src/los_server/los_server.cc)
 #ament_target_dependencies(los_server rclcpp los_keeper_msgs sensor_msgs
@@ -45,6 +53,10 @@ find_package(pcl_conversions REQUIRED)
 #add_executable(los_server_node src/los_server/los_server_node.cc)
 #target_link_libraries(los_server_node los_server visualizer)
 #install(TARGETS los_server_node DESTINATION lib/${PROJECT_NAME})
+
+add_executable(planning_server_node src/planning_server/planning_server_node.cpp)
+target_link_libraries(planning_server_node planning_server)
+install(TARGETS planning_server_node DESTINATION lib/${PROJECT_NAME})
 
 ###################################
 
