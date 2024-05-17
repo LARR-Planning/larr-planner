@@ -20,8 +20,10 @@ target_include_directories(
         planning_server PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
         $<INSTALL_INTERFACE:include>
 )
-
 target_link_libraries(planning_server larr_planner)
+install(FILES include/${PROJECT_NAME}/planning_server/planning_server.h
+        DESTINATION ${CMAKE_INSTALL_PREFIX}/include/${PROJECT_NAME}/planning_server)
+
 
 #add_library(los_server src/los_server/los_server.cc)
 #ament_target_dependencies(los_server rclcpp los_keeper_msgs sensor_msgs
@@ -66,7 +68,7 @@ install(TARGETS planning_server_node DESTINATION lib/${PROJECT_NAME})
 #target_link_libraries(los_server_test los_server GTest::GTest GTest::Main)
 #add_test(los_server_test los_server_test)
 
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+#install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+#install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
 
 ament_package()
