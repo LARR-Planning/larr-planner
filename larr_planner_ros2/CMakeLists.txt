@@ -12,10 +12,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 find_package(PCL REQUIRED)
 #find_package(pcl_conversions REQUIRED)
-
 find_package(larr_planner REQUIRED)
 #find_package(los_keeper_msgs REQUIRED)
-
 add_library(planning_server src/planning_server/planning_server.cc)
 ament_target_dependencies(planning_server rclcpp sensor_msgs geometry_msgs)
 target_include_directories(
