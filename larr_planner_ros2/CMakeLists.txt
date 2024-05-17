@@ -68,7 +68,7 @@ install(TARGETS planning_server_node DESTINATION lib/${PROJECT_NAME})
 #target_link_libraries(los_server_test los_server GTest::GTest GTest::Main)
 #add_test(los_server_test los_server_test)
 
-install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
-install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
+#install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+#install(DIRECTORY config DESTINATION share/${PROJECT_NAME})
 
 ament_package()
