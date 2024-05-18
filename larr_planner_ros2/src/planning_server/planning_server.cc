@@ -10,8 +10,6 @@ PlanningServer::PlanningServer(const rclcpp::NodeOptions &options_input) : Node(
   options.callback_group = create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
   state_subscriber_ = create_subscription<RobotStateMsg>(
       "~/state", rclcpp::QoS(1), std::bind(&PlanningServer::RobotStateCallback,this, std::placeholders::_1),options);
-
-  
 }
 
 void PlanningServer::RobotStateCallback(const geometry_msgs::msg::PoseStamped::ConstSharedPtr &msg) {
