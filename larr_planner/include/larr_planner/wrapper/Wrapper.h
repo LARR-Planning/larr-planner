@@ -5,4 +5,17 @@
 #ifndef LARR_PLANNER_WRAPPER_H
 #define LARR_PLANNER_WRAPPER_H
 
+#include "larr_planner/type_manager/TypeManager.h"
+
+namespace larr_planner {
+
+class Wrapper {
+public:
+  void SetRobotState(const RobotState &robot_state);
+
+private:
+};
+
+} // namespace larr_planner
+
 #endif // LARR_PLANNER_WRAPPER_H
