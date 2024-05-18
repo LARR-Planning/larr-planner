@@ -12,6 +12,7 @@ namespace larr_planner {
 class Wrapper {
 public:
   void SetRobotState(const RobotState &robot_state);
+  void OnPlanningTimerCallback();
 
 private:
 };

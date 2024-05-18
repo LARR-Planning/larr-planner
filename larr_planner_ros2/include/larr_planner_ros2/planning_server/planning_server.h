@@ -14,6 +14,7 @@
 
 using RobotStateMsg = geometry_msgs::msg::PoseStamped;
 using StateSubscriber = rclcpp::Subscription<RobotStateMsg>::SharedPtr;
+using RosTimer = rclcpp::TimerBase::SharedPtr;
 
 namespace larr_planner {
 
@@ -21,6 +22,11 @@ class PlanningServer : public rclcpp::Node {
 private:
   Wrapper *wrapper_ptr_;
   StateSubscriber state_subscriber_;
+
+  RosTimer planning_timer_;
+  RosTimer control_timer_;
+  void PlanningTimerCallback();
+  void ControlTimerCallback();
 
   void RobotStateCallback(const RobotStateMsg::ConstSharedPtr &msg);
   RobotState ConvertToRobotState(const RobotStateMsg &state_msg);

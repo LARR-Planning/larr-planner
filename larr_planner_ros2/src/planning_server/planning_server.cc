@@ -10,6 +10,10 @@ PlanningServer::PlanningServer(const rclcpp::NodeOptions &options_input) : Node(
   options.callback_group = create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
   state_subscriber_ = create_subscription<RobotStateMsg>(
       "~/state", rclcpp::QoS(1), std::bind(&PlanningServer::RobotStateCallback, this, std::placeholders::_1), options);
+
+  using namespace std::chrono_literals;
+  control_timer_ = this->create_wall_timer(20ms, std::bind(&PlanningServer::ControlTimerCallback, this));
+  planning_timer_ = this->create_wall_timer(200ms, std::bind(&PlanningServer::PlanningTimerCallback, this));
 }
 
 void PlanningServer::RobotStateCallback(const geometry_msgs::msg::PoseStamped::ConstSharedPtr &msg) {
@@ -30,3 +34,5 @@ RobotState PlanningServer::ConvertToRobotState(const RobotStateMsg &state_msg) {
 
   return state;
 }
+void PlanningServer::PlanningTimerCallback() { wrapper_ptr_->OnPlanningTimerCallback(); }
+void PlanningServer::ControlTimerCallback() {}
