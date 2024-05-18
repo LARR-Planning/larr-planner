@@ -1,12 +1,12 @@
 
 
-namespace larr_planner{
-struct Position{
+namespace larr_planner {
+struct Position {
   double px;
   double py;
   double pz;
 };
-struct Quaternion{
+struct Quaternion {
   double qx;
   double qy;
   double qz;
@@ -14,11 +14,8 @@ struct Quaternion{
 };
 struct RobotState {
   double t_sec{0.0};
-  Position pos{0.0,0.0,0.0};
-  Quaternion orientation{0.0,0.0,0.0,1.0};
-
+  Position pos{0.0, 0.0, 0.0};
+  Quaternion orientation{0.0, 0.0, 0.0, 1.0};
 };
 
-
-
-}
+} // namespace larr_planner

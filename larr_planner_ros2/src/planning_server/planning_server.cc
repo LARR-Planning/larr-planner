@@ -9,16 +9,16 @@ PlanningServer::PlanningServer(const rclcpp::NodeOptions &options_input) : Node(
   // Subscribe Robot State {POSITION, ORIENTATION}
   options.callback_group = create_callback_group(rclcpp::CallbackGroupType::MutuallyExclusive);
   state_subscriber_ = create_subscription<RobotStateMsg>(
-      "~/state", rclcpp::QoS(1), std::bind(&PlanningServer::RobotStateCallback,this, std::placeholders::_1),options);
+      "~/state", rclcpp::QoS(1), std::bind(&PlanningServer::RobotStateCallback, this, std::placeholders::_1), options);
 }
 
 void PlanningServer::RobotStateCallback(const geometry_msgs::msg::PoseStamped::ConstSharedPtr &msg) {
-  wrapper_ptr_-> SetRobotState(ConvertToRobotState(*msg));
+  wrapper_ptr_->SetRobotState(ConvertToRobotState(*msg));
 }
 
 RobotState PlanningServer::ConvertToRobotState(const RobotStateMsg &state_msg) {
   RobotState state;
-  state.t_sec = state_msg.header.stamp.sec + state_msg.header.stamp.nanosec*1E-9;
+  state.t_sec = state_msg.header.stamp.sec + state_msg.header.stamp.nanosec * 1E-9;
   state.pos.px = state_msg.pose.position.x;
   state.pos.py = state_msg.pose.position.y;
   state.pos.pz = state_msg.pose.position.z;

@@ -7,17 +7,15 @@
 
 // #include <pcl/PCLPointCloud2.h>
 // #include <pcl_conversions/pcl_conversions.h>
-#include <rclcpp/rclcpp.hpp>
-#include <larr_planner/wrapper/Wrapper.h>
 #include <geometry_msgs/msg/pose_stamped.hpp>
+#include <larr_planner/wrapper/Wrapper.h>
+#include <rclcpp/rclcpp.hpp>
 #include <visualization_msgs/msg/marker_array.hpp>
 
 using RobotStateMsg = geometry_msgs::msg::PoseStamped;
 using StateSubscriber = rclcpp::Subscription<RobotStateMsg>::SharedPtr;
 
-
 namespace larr_planner {
-
 
 class PlanningServer : public rclcpp::Node {
 private:
@@ -26,7 +24,6 @@ private:
 
   void RobotStateCallback(const RobotStateMsg::ConstSharedPtr &msg);
   RobotState ConvertToRobotState(const RobotStateMsg &state_msg);
-
 
 public:
   PlanningServer(const rclcpp::NodeOptions &options_input);

@@ -7,16 +7,15 @@
 
 #include "larr_planner/type_manager/TypeManager.h"
 
-namespace larr_planner{
+namespace larr_planner {
 
-class Wrapper{
+class Wrapper {
 public:
   void SetRobotState(const RobotState &robot_state);
-private:
 
+private:
 };
 
-}
-
+} // namespace larr_planner
 
 #endif // LARR_PLANNER_WRAPPER_H
