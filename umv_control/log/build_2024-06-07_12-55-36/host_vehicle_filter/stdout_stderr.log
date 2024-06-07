@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/PKG-INFO
+writing dependency_links to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/dependency_links.txt
+writing entry points to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/entry_points.txt
+writing requirements to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/requires.txt
+writing top-level names to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/top_level.txt
+reading manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/host_vehicle_filter/host_vehicle_filter.egg-info to /home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info
+running install_scripts
+Installing host_vehicle_filter_node script to /home/jeongtae/umv_control/install/host_vehicle_filter/lib/host_vehicle_filter
+writing list of installed files to '/home/jeongtae/umv_control/build/host_vehicle_filter/install.log'

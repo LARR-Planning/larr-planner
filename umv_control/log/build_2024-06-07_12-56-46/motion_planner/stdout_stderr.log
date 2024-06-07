@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/motion_planner/motion_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/motion_planner/motion_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/motion_planner/motion_planner.egg-info/entry_points.txt
+writing requirements to ../../build/motion_planner/motion_planner.egg-info/requires.txt
+writing top-level names to ../../build/motion_planner/motion_planner.egg-info/top_level.txt
+reading manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/motion_planner/motion_planner.egg-info to /home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing motion_planner_node script to /home/jeongtae/umv_control/install/motion_planner/lib/motion_planner
+writing list of installed files to '/home/jeongtae/umv_control/build/motion_planner/install.log'

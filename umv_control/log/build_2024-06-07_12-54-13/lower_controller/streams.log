@@ -1,0 +1,38 @@
+[0.453s] Invoking command in '/home/jeongtae/umv_control/src/lower_controller': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi:/home/jeongtae/umv_control/install/airsim_controller LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/lower_controller/prefix_override:/home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/jeongtae/umv_control/build/lower_controller/build install --record /home/jeongtae/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data
+[0.568s] running egg_info
+[0.568s] creating ../../build/lower_controller/lower_controller.egg-info
+[0.568s] writing ../../build/lower_controller/lower_controller.egg-info/PKG-INFO
+[0.568s] writing dependency_links to ../../build/lower_controller/lower_controller.egg-info/dependency_links.txt
+[0.568s] writing entry points to ../../build/lower_controller/lower_controller.egg-info/entry_points.txt
+[0.569s] writing requirements to ../../build/lower_controller/lower_controller.egg-info/requires.txt
+[0.569s] writing top-level names to ../../build/lower_controller/lower_controller.egg-info/top_level.txt
+[0.569s] writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[0.569s] reading manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[0.569s] adding license file 'LICENSE'
+[0.570s] writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[0.570s] running build
+[0.570s] running build_py
+[0.570s] creating /home/jeongtae/umv_control/build/lower_controller/build
+[0.570s] creating /home/jeongtae/umv_control/build/lower_controller/build/lib
+[0.570s] creating /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+[0.570s] copying lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+[0.570s] copying lower_controller/__init__.py -> /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+[0.570s] running install
+[0.570s] running install_lib
+[0.571s] creating /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+[0.571s] copying /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+[0.571s] copying /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller/__init__.py -> /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+[0.571s] byte-compiling /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller/lower_controller_node.py to lower_controller_node.cpython-310.pyc
+[0.572s] byte-compiling /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller/__init__.py to __init__.cpython-310.pyc
+[0.572s] running install_data
+[0.572s] creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index
+[0.572s] creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index
+[0.572s] creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index/packages
+[0.572s] copying resource/lower_controller -> /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index/packages
+[0.572s] copying package.xml -> /home/jeongtae/umv_control/install/lower_controller/share/lower_controller
+[0.572s] running install_egg_info
+[0.573s] Copying ../../build/lower_controller/lower_controller.egg-info to /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info
+[0.573s] running install_scripts
+[0.584s] Installing lower_controller_node script to /home/jeongtae/umv_control/install/lower_controller/lib/lower_controller
+[0.584s] writing list of installed files to '/home/jeongtae/umv_control/build/lower_controller/install.log'
+[0.597s] Invoked command in '/home/jeongtae/umv_control/src/lower_controller' returned '0': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi:/home/jeongtae/umv_control/install/airsim_controller LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/lower_controller/prefix_override:/home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/jeongtae/umv_control/build/lower_controller/build install --record /home/jeongtae/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data

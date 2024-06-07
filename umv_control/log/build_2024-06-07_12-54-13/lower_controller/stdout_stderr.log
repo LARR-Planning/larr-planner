@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/lower_controller/lower_controller.egg-info
+writing ../../build/lower_controller/lower_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/lower_controller/lower_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/lower_controller/lower_controller.egg-info/entry_points.txt
+writing requirements to ../../build/lower_controller/lower_controller.egg-info/requires.txt
+writing top-level names to ../../build/lower_controller/lower_controller.egg-info/top_level.txt
+writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jeongtae/umv_control/build/lower_controller/build
+creating /home/jeongtae/umv_control/build/lower_controller/build/lib
+creating /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+copying lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+copying lower_controller/__init__.py -> /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+running install
+running install_lib
+creating /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+copying /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+copying /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller/__init__.py -> /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+byte-compiling /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller/lower_controller_node.py to lower_controller_node.cpython-310.pyc
+byte-compiling /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index
+creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index
+creating /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index/packages
+copying resource/lower_controller -> /home/jeongtae/umv_control/install/lower_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/jeongtae/umv_control/install/lower_controller/share/lower_controller
+running install_egg_info
+Copying ../../build/lower_controller/lower_controller.egg-info to /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lower_controller_node script to /home/jeongtae/umv_control/install/lower_controller/lib/lower_controller
+writing list of installed files to '/home/jeongtae/umv_control/build/lower_controller/install.log'

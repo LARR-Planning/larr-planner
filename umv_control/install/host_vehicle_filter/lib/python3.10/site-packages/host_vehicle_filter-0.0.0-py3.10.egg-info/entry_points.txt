@@ -1,0 +1,3 @@
+[console_scripts]
+host_vehicle_filter_node = host_vehicle_filter.host_vehicle_filter_node:main
+

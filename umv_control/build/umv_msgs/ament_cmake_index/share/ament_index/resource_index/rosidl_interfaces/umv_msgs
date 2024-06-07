@@ -1,0 +1,8 @@
+msg/AcuCmd.idl
+msg/AcuCmd.msg
+msg/GlobalPath.idl
+msg/GlobalPath.msg
+msg/HostVehicleFilter.idl
+msg/HostVehicleFilter.msg
+msg/LocalRefPath.idl
+msg/LocalRefPath.msg

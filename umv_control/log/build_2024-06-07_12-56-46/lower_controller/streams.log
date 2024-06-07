@@ -1,0 +1,25 @@
+[0.429s] Invoking command in '/home/jeongtae/umv_control/src/lower_controller': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/lower_controller/prefix_override:/home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/jeongtae/umv_control/build/lower_controller/build install --record /home/jeongtae/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data
+[0.543s] running egg_info
+[0.543s] writing ../../build/lower_controller/lower_controller.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/lower_controller/lower_controller.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/lower_controller/lower_controller.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/lower_controller/lower_controller.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/lower_controller/lower_controller.egg-info/top_level.txt
+[0.544s] reading manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[0.544s] adding license file 'LICENSE'
+[0.544s] writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[0.544s] running build
+[0.544s] running build_py
+[0.544s] copying lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller
+[0.545s] running install
+[0.545s] running install_lib
+[0.545s] copying /home/jeongtae/umv_control/build/lower_controller/build/lib/lower_controller/lower_controller_node.py -> /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller
+[0.546s] byte-compiling /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller/lower_controller_node.py to lower_controller_node.cpython-310.pyc
+[0.546s] running install_data
+[0.546s] running install_egg_info
+[0.547s] removing '/home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.547s] Copying ../../build/lower_controller/lower_controller.egg-info to /home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info
+[0.547s] running install_scripts
+[0.557s] Installing lower_controller_node script to /home/jeongtae/umv_control/install/lower_controller/lib/lower_controller
+[0.557s] writing list of installed files to '/home/jeongtae/umv_control/build/lower_controller/install.log'
+[0.569s] Invoked command in '/home/jeongtae/umv_control/src/lower_controller' returned '0': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/lower_controller/prefix_override:/home/jeongtae/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/jeongtae/umv_control/build/lower_controller/build install --record /home/jeongtae/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data

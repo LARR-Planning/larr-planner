@@ -1,0 +1,22 @@
+[0.564s] Invoking command in '/home/jeongtae/umv_control/src/motion_planner': PYTHONPATH=/home/jeongtae/umv_control/build/motion_planner/prefix_override:/home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/jeongtae/umv_control/build/motion_planner/build install --record /home/jeongtae/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data
+[0.682s] running egg_info
+[0.682s] writing ../../build/motion_planner/motion_planner.egg-info/PKG-INFO
+[0.682s] writing dependency_links to ../../build/motion_planner/motion_planner.egg-info/dependency_links.txt
+[0.682s] writing entry points to ../../build/motion_planner/motion_planner.egg-info/entry_points.txt
+[0.682s] writing requirements to ../../build/motion_planner/motion_planner.egg-info/requires.txt
+[0.683s] writing top-level names to ../../build/motion_planner/motion_planner.egg-info/top_level.txt
+[0.684s] reading manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[0.684s] adding license file 'LICENSE'
+[0.684s] writing manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[0.684s] running build
+[0.684s] running build_py
+[0.684s] running install
+[0.684s] running install_lib
+[0.686s] running install_data
+[0.686s] running install_egg_info
+[0.687s] removing '/home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[0.687s] Copying ../../build/motion_planner/motion_planner.egg-info to /home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info
+[0.687s] running install_scripts
+[0.698s] Installing motion_planner_node script to /home/jeongtae/umv_control/install/motion_planner/lib/motion_planner
+[0.698s] writing list of installed files to '/home/jeongtae/umv_control/build/motion_planner/install.log'
+[0.711s] Invoked command in '/home/jeongtae/umv_control/src/motion_planner' returned '0': PYTHONPATH=/home/jeongtae/umv_control/build/motion_planner/prefix_override:/home/jeongtae/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/jeongtae/umv_control/build/motion_planner/build install --record /home/jeongtae/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data

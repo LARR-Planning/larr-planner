@@ -1,0 +1,9 @@
+{
+  "package_name": "umv_msgs",
+  "non_idl_tuples": [
+    "/home/jeongtae/umv_control/src/umv_msgs:msg/LocalRefPath.msg",
+    "/home/jeongtae/umv_control/src/umv_msgs:msg/HostVehicleFilter.msg",
+    "/home/jeongtae/umv_control/src/umv_msgs:msg/AcuCmd.msg",
+    "/home/jeongtae/umv_control/src/umv_msgs:msg/GlobalPath.msg"
+  ]
+}

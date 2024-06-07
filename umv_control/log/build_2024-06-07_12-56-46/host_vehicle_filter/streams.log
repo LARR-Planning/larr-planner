@@ -1,0 +1,22 @@
+[0.430s] Invoking command in '/home/jeongtae/umv_control/src/host_vehicle_filter': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/host_vehicle_filter/prefix_override:/home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/jeongtae/umv_control/build/host_vehicle_filter/build install --record /home/jeongtae/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data
+[0.540s] running egg_info
+[0.541s] writing ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/PKG-INFO
+[0.541s] writing dependency_links to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/dependency_links.txt
+[0.541s] writing entry points to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/entry_points.txt
+[0.541s] writing requirements to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/requires.txt
+[0.541s] writing top-level names to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/top_level.txt
+[0.542s] reading manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+[0.542s] adding license file 'LICENSE'
+[0.542s] writing manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+[0.542s] running build
+[0.542s] running build_py
+[0.542s] running install
+[0.542s] running install_lib
+[0.543s] running install_data
+[0.543s] running install_egg_info
+[0.544s] removing '/home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[0.544s] Copying ../../build/host_vehicle_filter/host_vehicle_filter.egg-info to /home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info
+[0.545s] running install_scripts
+[0.555s] Installing host_vehicle_filter_node script to /home/jeongtae/umv_control/install/host_vehicle_filter/lib/host_vehicle_filter
+[0.555s] writing list of installed files to '/home/jeongtae/umv_control/build/host_vehicle_filter/install.log'
+[0.567s] Invoked command in '/home/jeongtae/umv_control/src/host_vehicle_filter' returned '0': CMAKE_PREFIX_PATH=/home/jeongtae/umv_control/install/umv_msgs:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs:/home/jeongtae/AirSim/ros2/install/airsim_interfaces:/home/jeongtae/umv_control/install/mppi LD_LIBRARY_PATH=/home/jeongtae/umv_control/install/umv_msgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/jeongtae/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/jeongtae/umv_control/build/host_vehicle_filter/prefix_override:/home/jeongtae/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/jeongtae/umv_control/build/host_vehicle_filter/build install --record /home/jeongtae/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data
