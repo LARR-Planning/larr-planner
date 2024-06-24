@@ -65,11 +65,11 @@ class MotionPlanner(Node):
         self.prev_time = current_time
         
         # print
-        self.get_logger().info(f'Linear Velocity - x: {linear_velocity_x}, y: {linear_velocity_y}, z: {linear_velocity_z}')
-        self.get_logger().info(f'Angular Velocity - x: {angular_velocity_x}, y: {angular_velocity_y}, z: {angular_velocity_z}')
-        self.get_logger().info(f'Acceleration - x: {acceleration_x} m/s^2')
-        self.get_logger().info(f'Position - x: {position_x}, y: {position_y}, z: {position_z}')
-        self.get_logger().info(f'Orientation - x: {orientation_x}, y: {orientation_y}, z: {orientation_z}, w: {orientation_w}')
+        # self.get_logger().info(f'Linear Velocity - x: {linear_velocity_x}, y: {linear_velocity_y}, z: {linear_velocity_z}')
+        # self.get_logger().info(f'Angular Velocity - x: {angular_velocity_x}, y: {angular_velocity_y}, z: {angular_velocity_z}')
+        # self.get_logger().info(f'Acceleration - x: {acceleration_x} m/s^2')
+        # self.get_logger().info(f'Position - x: {position_x}, y: {position_y}, z: {position_z}')
+        # self.get_logger().info(f'Orientation - x: {orientation_x}, y: {orientation_y}, z: {orientation_z}, w: {orientation_w}')
 
     def steering_cb(self, msg):
         steering = msg.steering
