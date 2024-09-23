@@ -1,0 +1,654 @@
+[0.000000] (-) TimerEvent: {}
+[0.000282] (motion_planner) JobQueued: {'identifier': 'motion_planner', 'dependencies': OrderedDict()}
+[0.000573] (umv_msgs) JobQueued: {'identifier': 'umv_msgs', 'dependencies': OrderedDict()}
+[0.000594] (utils) JobQueued: {'identifier': 'utils', 'dependencies': OrderedDict()}
+[0.000611] (global_path) JobQueued: {'identifier': 'global_path', 'dependencies': OrderedDict([('umv_msgs', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs')])}
+[0.000629] (host_vehicle_filter) JobQueued: {'identifier': 'host_vehicle_filter', 'dependencies': OrderedDict([('umv_msgs', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs')])}
+[0.000647] (lower_controller) JobQueued: {'identifier': 'lower_controller', 'dependencies': OrderedDict([('umv_msgs', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs')])}
+[0.000663] (mppi) JobQueued: {'identifier': 'mppi', 'dependencies': OrderedDict([('umv_msgs', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs')])}
+[0.000680] (umv_msgs) JobStarted: {'identifier': 'umv_msgs'}
+[0.012782] (motion_planner) JobStarted: {'identifier': 'motion_planner'}
+[0.020477] (utils) JobStarted: {'identifier': 'utils'}
+[0.030839] (umv_msgs) JobProgress: {'identifier': 'umv_msgs', 'progress': 'cmake'}
+[0.032543] (umv_msgs) JobProgress: {'identifier': 'umv_msgs', 'progress': 'build'}
+[0.034116] (umv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs', '--', '-j8', '-l8'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'vdcl'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdcl'), ('OLDPWD', '/home/vdcl/Desktop/larr_project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1333'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vdcl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdcl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include'), ('SESSION_MANAGER', 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble')]), 'shell': False}
+[0.099882] (-) TimerEvent: {}
+[0.202067] (-) TimerEvent: {}
+[0.302344] (-) TimerEvent: {}
+[0.402626] (-) TimerEvent: {}
+[0.505467] (-) TimerEvent: {}
+[0.607787] (-) TimerEvent: {}
+[0.622567] (umv_msgs) StdoutLine: {'line': b'[  1%] Built target umv_msgs__cpp\n'}
+[0.623698] (umv_msgs) StdoutLine: {'line': b'[ 12%] Built target umv_msgs__rosidl_generator_c\n'}
+[0.623870] (umv_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_umv_msgs\n'}
+[0.624032] (umv_msgs) StdoutLine: {'line': b'[ 26%] Built target umv_msgs__rosidl_typesupport_cpp\n'}
+[0.624199] (umv_msgs) StdoutLine: {'line': b'[ 36%] Built target umv_msgs__rosidl_typesupport_c\n'}
+[0.625355] (umv_msgs) StdoutLine: {'line': b'[ 46%] Built target umv_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.626355] (umv_msgs) StdoutLine: {'line': b'[ 57%] Built target umv_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.626930] (umv_msgs) StdoutLine: {'line': b'[ 68%] Built target umv_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.627125] (umv_msgs) StdoutLine: {'line': b'[ 79%] Built target umv_msgs__rosidl_typesupport_introspection_c\n'}
+[0.627281] (umv_msgs) StdoutLine: {'line': b'[ 79%] Built target umv_msgs\n'}
+[0.627431] (umv_msgs) StdoutLine: {'line': b'[ 80%] Built target umv_msgs__py\n'}
+[0.627584] (umv_msgs) StdoutLine: {'line': b'[ 90%] Built target umv_msgs__rosidl_generator_py\n'}
+[0.627729] (umv_msgs) StdoutLine: {'line': b'[ 93%] Built target umv_msgs__rosidl_typesupport_c__pyext\n'}
+[0.627873] (umv_msgs) StdoutLine: {'line': b'[ 96%] Built target umv_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.628014] (umv_msgs) StdoutLine: {'line': b'[100%] Built target umv_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.708073] (umv_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.708366] (-) TimerEvent: {}
+[0.708641] (umv_msgs) StdoutLine: {'line': b'writing umv_msgs.egg-info/PKG-INFO\n'}
+[0.708801] (umv_msgs) StdoutLine: {'line': b'writing dependency_links to umv_msgs.egg-info/dependency_links.txt\n'}
+[0.708949] (umv_msgs) StdoutLine: {'line': b'writing top-level names to umv_msgs.egg-info/top_level.txt\n'}
+[0.713624] (umv_msgs) StdoutLine: {'line': b"reading manifest file 'umv_msgs.egg-info/SOURCES.txt'\n"}
+[0.714941] (umv_msgs) StdoutLine: {'line': b"writing manifest file 'umv_msgs.egg-info/SOURCES.txt'\n"}
+[0.769913] (umv_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_umv_msgs_egg\n'}
+[0.808463] (-) TimerEvent: {}
+[0.908777] (-) TimerEvent: {}
+[0.980534] (umv_msgs) CommandEnded: {'returncode': 0}
+[1.008846] (-) TimerEvent: {}
+[1.110258] (-) TimerEvent: {}
+[1.211715] (-) TimerEvent: {}
+[1.253892] (umv_msgs) JobProgress: {'identifier': 'umv_msgs', 'progress': 'install'}
+[1.271233] (umv_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'vdcl'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdcl'), ('OLDPWD', '/home/vdcl/Desktop/larr_project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1333'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vdcl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdcl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include'), ('SESSION_MANAGER', 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble')]), 'shell': False}
+[1.276638] (umv_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.276969] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/rosidl_interfaces/umv_msgs\n'}
+[1.277325] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.277697] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.278066] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.278305] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/global_path.h\n'}
+[1.278428] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/acu_cmd.h\n'}
+[1.278552] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/host_vehicle_filter.h\n'}
+[1.278675] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/obstacles.h\n'}
+[1.278808] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/local_ref_path.h\n'}
+[1.278942] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.279065] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__struct.h\n'}
+[1.279193] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__functions.c\n'}
+[1.279284] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__functions.c\n'}
+[1.279370] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.h\n'}
+[1.279458] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.h\n'}
+[1.279586] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__struct.h\n'}
+[1.279707] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__functions.c\n'}
+[1.279817] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__struct.h\n'}
+[1.279956] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__functions.h\n'}
+[1.280189] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__functions.c\n'}
+[1.280330] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.h\n'}
+[1.280466] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__functions.h\n'}
+[1.280598] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__functions.c\n'}
+[1.280744] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__struct.h\n'}
+[1.280869] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__struct.h\n'}
+[1.280983] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__functions.h\n'}
+[1.281125] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.h\n'}
+[1.281245] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.h\n'}
+[1.281371] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__functions.h\n'}
+[1.281498] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__functions.h\n'}
+[1.281612] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/library_path.sh\n'}
+[1.281749] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/library_path.dsv\n'}
+[1.281853] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_c.so\n'}
+[1.281978] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.282305] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.282404] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.282497] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.282596] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_fastrtps_c.h\n'}
+[1.282699] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_fastrtps_c.h\n'}
+[1.282802] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h\n'}
+[1.282900] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_fastrtps_c.h\n'}
+[1.282999] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[1.283317] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.283586] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.283678] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.283767] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.283854] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.283946] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.c\n'}
+[1.284041] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.c\n'}
+[1.284149] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_introspection_c.h\n'}
+[1.284247] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.c\n'}
+[1.284348] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.c\n'}
+[1.284445] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_introspection_c.h\n'}
+[1.284573] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_introspection_c.h\n'}
+[1.284667] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_introspection_c.h\n'}
+[1.284759] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_c.h\n'}
+[1.284851] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.c\n'}
+[1.284949] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.285237] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_c.so\n'}
+[1.285510] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.285723] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.286120] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/host_vehicle_filter.hpp\n'}
+[1.286227] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/global_path.hpp\n'}
+[1.286320] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/obstacles.hpp\n'}
+[1.286410] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/local_ref_path.hpp\n'}
+[1.286505] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/acu_cmd.hpp\n'}
+[1.286601] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.286693] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__traits.hpp\n'}
+[1.286783] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__builder.hpp\n'}
+[1.286877] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__traits.hpp\n'}
+[1.286972] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__builder.hpp\n'}
+[1.287089] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__builder.hpp\n'}
+[1.287190] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__builder.hpp\n'}
+[1.287362] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__builder.hpp\n'}
+[1.287506] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__struct.hpp\n'}
+[1.287680] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__struct.hpp\n'}
+[1.287821] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__traits.hpp\n'}
+[1.287947] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__struct.hpp\n'}
+[1.288354] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__traits.hpp\n'}
+[1.288477] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__struct.hpp\n'}
+[1.288614] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__traits.hpp\n'}
+[1.288734] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__struct.hpp\n'}
+[1.288864] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.288998] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.289162] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.289280] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.289414] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.289524] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.289639] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.289727] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.289846] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/dds_fastrtps\n'}
+[1.289973] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.290093] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.290192] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs\n'}
+[1.290280] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg\n'}
+[1.290364] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail\n'}
+[1.290452] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.290536] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.290619] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.cpp\n'}
+[1.290717] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.cpp\n'}
+[1.290810] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.cpp\n'}
+[1.290994] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.291147] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.291255] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.cpp\n'}
+[1.291357] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.291469] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.cpp\n'}
+[1.291570] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.291670] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_cpp.so\n'}
+[1.291774] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/pythonpath.sh\n'}
+[1.291872] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/pythonpath.dsv\n'}
+[1.291970] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info\n'}
+[1.292078] (umv_msgs) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.312177] (-) TimerEvent: {}
+[1.389422] (umv_msgs) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.396850] (umv_msgs) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.399085] (umv_msgs) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.399626] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs\n'}
+[1.400826] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg\n'}
+[1.401084] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_acu_cmd.py\n'}
+[1.401187] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_local_ref_path_s.c\n'}
+[1.401283] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_local_ref_path.py\n'}
+[1.401381] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_acu_cmd_s.c\n'}
+[1.401471] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_obstacles.py\n'}
+[1.401561] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_global_path.py\n'}
+[1.401648] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_host_vehicle_filter.py\n'}
+[1.401739] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_obstacles_s.c\n'}
+[1.401826] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/__init__.py\n'}
+[1.401920] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_host_vehicle_filter_s.c\n'}
+[1.402007] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_global_path_s.c\n'}
+[1.402110] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.402199] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.402283] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.402368] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.402453] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/libumv_msgs__rosidl_generator_py.so\n'}
+[1.402537] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/__init__.py\n'}
+[1.402620] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.402705] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.412267] (-) TimerEvent: {}
+[1.441656] (umv_msgs) StdoutLine: {'line': b"Listing '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs'...\n"}
+[1.441846] (umv_msgs) StdoutLine: {'line': b"Listing '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg'...\n"}
+[1.447927] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.449614] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.449806] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.449962] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_py.so\n'}
+[1.450114] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/LocalRefPath.idl\n'}
+[1.450264] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/HostVehicleFilter.idl\n'}
+[1.450443] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/AcuCmd.idl\n'}
+[1.450610] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/GlobalPath.idl\n'}
+[1.450823] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/Obstacles.idl\n'}
+[1.451043] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/LocalRefPath.msg\n'}
+[1.451262] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/HostVehicleFilter.msg\n'}
+[1.451458] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/AcuCmd.msg\n'}
+[1.451561] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/GlobalPath.msg\n'}
+[1.451708] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/Obstacles.msg\n'}
+[1.451868] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/package_run_dependencies/umv_msgs\n'}
+[1.452055] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/parent_prefix_path/umv_msgs\n'}
+[1.452244] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/ament_prefix_path.sh\n'}
+[1.452415] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/ament_prefix_path.dsv\n'}
+[1.452567] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/path.sh\n'}
+[1.452718] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/path.dsv\n'}
+[1.452851] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.bash\n'}
+[1.452992] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.sh\n'}
+[1.453127] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.zsh\n'}
+[1.453284] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.dsv\n'}
+[1.453480] (umv_msgs) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.dsv\n'}
+[1.453656] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/packages/umv_msgs\n'}
+[1.453819] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cExport.cmake\n'}
+[1.453972] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.454131] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.454238] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.454337] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.454428] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.454526] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.454616] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.454713] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.454801] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.454888] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.454981] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.455080] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.455173] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.455260] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.455349] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.455439] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.455525] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.455616] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.455705] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.455793] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.455897] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.455998] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.456119] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.456227] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgsConfig.cmake\n'}
+[1.456323] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgsConfig-version.cmake\n'}
+[1.456424] (umv_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.xml\n'}
+[1.463470] (umv_msgs) CommandEnded: {'returncode': 0}
+[1.513295] (-) TimerEvent: {}
+[1.613591] (-) TimerEvent: {}
+[1.659092] (utils) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/utils', 'build', '--build-base', '/home/vdcl/Desktop/larr_project/umv_control/build/utils/build', 'install', '--record', '/home/vdcl/Desktop/larr_project/umv_control/build/utils/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/src/utils', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'vdcl', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vdcl', 'OLDPWD': '/home/vdcl/Desktop/larr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vdcl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vdcl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include', 'SESSION_MANAGER': 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.433', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vdcl/Desktop/larr_project/umv_control/build/utils', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vdcl/Desktop/larr_project/umv_control/build/utils/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces'}, 'shell': False}
+[1.713688] (-) TimerEvent: {}
+[1.731152] (motion_planner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/motion_planner', 'build', '--build-base', '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/build', 'install', '--record', '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'vdcl', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vdcl', 'OLDPWD': '/home/vdcl/Desktop/larr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vdcl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vdcl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include', 'SESSION_MANAGER': 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.433', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces'}, 'shell': False}
+[1.807632] (umv_msgs) JobEnded: {'identifier': 'umv_msgs', 'rc': 0}
+[1.808791] (global_path) JobStarted: {'identifier': 'global_path'}
+[1.813772] (-) TimerEvent: {}
+[1.827212] (host_vehicle_filter) JobStarted: {'identifier': 'host_vehicle_filter'}
+[1.836702] (lower_controller) JobStarted: {'identifier': 'lower_controller'}
+[1.854177] (mppi) JobStarted: {'identifier': 'mppi'}
+[1.915905] (-) TimerEvent: {}
+[2.018046] (-) TimerEvent: {}
+[2.119663] (-) TimerEvent: {}
+[2.144512] (motion_planner) StdoutLine: {'line': b'running egg_info\n'}
+[2.144795] (motion_planner) StdoutLine: {'line': b'writing ../../build/motion_planner/motion_planner.egg-info/PKG-INFO\n'}
+[2.144947] (motion_planner) StdoutLine: {'line': b'writing dependency_links to ../../build/motion_planner/motion_planner.egg-info/dependency_links.txt\n'}
+[2.145322] (motion_planner) StdoutLine: {'line': b'writing entry points to ../../build/motion_planner/motion_planner.egg-info/entry_points.txt\n'}
+[2.145622] (motion_planner) StdoutLine: {'line': b'writing requirements to ../../build/motion_planner/motion_planner.egg-info/requires.txt\n'}
+[2.145770] (motion_planner) StdoutLine: {'line': b'writing top-level names to ../../build/motion_planner/motion_planner.egg-info/top_level.txt\n'}
+[2.147059] (motion_planner) StdoutLine: {'line': b"reading manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'\n"}
+[2.149443] (motion_planner) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.150251] (motion_planner) StdoutLine: {'line': b"writing manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'\n"}
+[2.150483] (motion_planner) StdoutLine: {'line': b'running build\n'}
+[2.150789] (motion_planner) StdoutLine: {'line': b'running build_py\n'}
+[2.151059] (motion_planner) StdoutLine: {'line': b'running install\n'}
+[2.151437] (motion_planner) StdoutLine: {'line': b'running install_lib\n'}
+[2.152632] (motion_planner) StdoutLine: {'line': b'running install_data\n'}
+[2.152827] (motion_planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.154718] (motion_planner) StdoutLine: {'line': b"removing '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.158744] (motion_planner) StdoutLine: {'line': b'Copying ../../build/motion_planner/motion_planner.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info\n'}
+[2.158938] (motion_planner) StdoutLine: {'line': b'running install_scripts\n'}
+[2.184852] (motion_planner) StdoutLine: {'line': b'Installing motion_planner_node script to /home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/motion_planner\n'}
+[2.185577] (motion_planner) StdoutLine: {'line': b"writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log'\n"}
+[2.194130] (utils) StdoutLine: {'line': b'running egg_info\n'}
+[2.195723] (utils) StdoutLine: {'line': b'writing ../../build/utils/utils.egg-info/PKG-INFO\n'}
+[2.196136] (utils) StdoutLine: {'line': b'writing dependency_links to ../../build/utils/utils.egg-info/dependency_links.txt\n'}
+[2.196370] (utils) StdoutLine: {'line': b'writing entry points to ../../build/utils/utils.egg-info/entry_points.txt\n'}
+[2.196526] (utils) StdoutLine: {'line': b'writing requirements to ../../build/utils/utils.egg-info/requires.txt\n'}
+[2.196650] (utils) StdoutLine: {'line': b'writing top-level names to ../../build/utils/utils.egg-info/top_level.txt\n'}
+[2.199698] (utils) StdoutLine: {'line': b"reading manifest file '../../build/utils/utils.egg-info/SOURCES.txt'\n"}
+[2.202511] (utils) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.204559] (utils) StdoutLine: {'line': b"writing manifest file '../../build/utils/utils.egg-info/SOURCES.txt'\n"}
+[2.204831] (utils) StdoutLine: {'line': b'running build\n'}
+[2.205084] (utils) StdoutLine: {'line': b'running build_py\n'}
+[2.205966] (utils) StdoutLine: {'line': b'running install\n'}
+[2.207678] (utils) StdoutLine: {'line': b'running install_lib\n'}
+[2.209731] (utils) StdoutLine: {'line': b'running install_data\n'}
+[2.209987] (utils) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.213916] (utils) StdoutLine: {'line': b"removing '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages/utils-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.216498] (utils) StdoutLine: {'line': b'Copying ../../build/utils/utils.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages/utils-0.0.0-py3.10.egg-info\n'}
+[2.218030] (utils) StdoutLine: {'line': b'running install_scripts\n'}
+[2.219780] (-) TimerEvent: {}
+[2.243459] (utils) StdoutLine: {'line': b'Installing path_plotter_node script to /home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/utils\n'}
+[2.243644] (utils) StdoutLine: {'line': b'Installing virtual_target_node script to /home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/utils\n'}
+[2.243806] (utils) StdoutLine: {'line': b"writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/utils/install.log'\n"}
+[2.319870] (-) TimerEvent: {}
+[2.420150] (-) TimerEvent: {}
+[2.520386] (-) TimerEvent: {}
+[2.620641] (-) TimerEvent: {}
+[2.721128] (-) TimerEvent: {}
+[2.821416] (-) TimerEvent: {}
+[2.921695] (-) TimerEvent: {}
+[3.022059] (-) TimerEvent: {}
+[3.041962] (utils) CommandEnded: {'returncode': 0}
+[3.049351] (utils) JobEnded: {'identifier': 'utils', 'rc': 0}
+[3.050368] (motion_planner) CommandEnded: {'returncode': 0}
+[3.056475] (motion_planner) JobEnded: {'identifier': 'motion_planner', 'rc': 0}
+[3.057928] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'cmake'}
+[3.060859] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'build'}
+[3.061259] (mppi) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vdcl/Desktop/larr_project/umv_control/build/mppi', '--', '-j8', '-l8'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/build/mppi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'vdcl'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdcl'), ('OLDPWD', '/home/vdcl/Desktop/larr_project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1333'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vdcl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdcl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include'), ('SESSION_MANAGER', 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdcl/Desktop/larr_project/umv_control/build/mppi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble')]), 'shell': False}
+[3.123004] (-) TimerEvent: {}
+[3.138115] (mppi) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mppi_manager\x1b[0m\n'}
+[3.179067] (mppi) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o\x1b[0m\n'}
+[3.223070] (-) TimerEvent: {}
+[3.323421] (-) TimerEvent: {}
+[3.423798] (-) TimerEvent: {}
+[3.524752] (-) TimerEvent: {}
+[3.628098] (-) TimerEvent: {}
+[3.730786] (-) TimerEvent: {}
+[3.831103] (-) TimerEvent: {}
+[3.853405] (lower_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lower_controller', 'build', '--build-base', '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/build', 'install', '--record', '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'vdcl', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vdcl', 'OLDPWD': '/home/vdcl/Desktop/larr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vdcl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vdcl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include', 'SESSION_MANAGER': 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.433', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces'}, 'shell': False}
+[3.903325] (global_path) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/global_path', 'build', '--build-base', '/home/vdcl/Desktop/larr_project/umv_control/build/global_path/build', 'install', '--record', '/home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/src/global_path', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'vdcl', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vdcl', 'OLDPWD': '/home/vdcl/Desktop/larr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vdcl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vdcl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include', 'SESSION_MANAGER': 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.433', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vdcl/Desktop/larr_project/umv_control/build/global_path', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vdcl/Desktop/larr_project/umv_control/build/global_path/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces'}, 'shell': False}
+[3.931196] (-) TimerEvent: {}
+[4.005966] (host_vehicle_filter) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/host_vehicle_filter', 'build', '--build-base', '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build', 'install', '--record', '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'ko:en', 'USER': 'vdcl', 'LC_TIME': 'ko_KR.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/vdcl', 'OLDPWD': '/home/vdcl/Desktop/larr_project', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'SYSTEMD_EXEC_PID': '1333', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'vdcl', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'vdcl', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include', 'SESSION_MANAGER': 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.433', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces'}, 'shell': False}
+[4.031814] (-) TimerEvent: {}
+[4.135102] (-) TimerEvent: {}
+[4.235739] (-) TimerEvent: {}
+[4.331014] (global_path) StdoutLine: {'line': b'running egg_info\n'}
+[4.336252] (global_path) StdoutLine: {'line': b'writing ../../build/global_path/global_path.egg-info/PKG-INFO\n'}
+[4.338924] (-) TimerEvent: {}
+[4.339718] (global_path) StdoutLine: {'line': b'writing dependency_links to ../../build/global_path/global_path.egg-info/dependency_links.txt\n'}
+[4.339870] (global_path) StdoutLine: {'line': b'writing entry points to ../../build/global_path/global_path.egg-info/entry_points.txt\n'}
+[4.339973] (global_path) StdoutLine: {'line': b'writing requirements to ../../build/global_path/global_path.egg-info/requires.txt\n'}
+[4.340079] (global_path) StdoutLine: {'line': b'writing top-level names to ../../build/global_path/global_path.egg-info/top_level.txt\n'}
+[4.340289] (global_path) StdoutLine: {'line': b"reading manifest file '../../build/global_path/global_path.egg-info/SOURCES.txt'\n"}
+[4.342943] (global_path) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.345444] (global_path) StdoutLine: {'line': b"writing manifest file '../../build/global_path/global_path.egg-info/SOURCES.txt'\n"}
+[4.347151] (global_path) StdoutLine: {'line': b'running build\n'}
+[4.347334] (global_path) StdoutLine: {'line': b'running build_py\n'}
+[4.347438] (global_path) StdoutLine: {'line': b'running install\n'}
+[4.347539] (global_path) StdoutLine: {'line': b'running install_lib\n'}
+[4.349484] (global_path) StdoutLine: {'line': b'running install_data\n'}
+[4.350145] (global_path) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.353090] (global_path) StdoutLine: {'line': b"removing '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.358708] (global_path) StdoutLine: {'line': b'Copying ../../build/global_path/global_path.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path-0.0.0-py3.10.egg-info\n'}
+[4.363709] (global_path) StdoutLine: {'line': b'running install_scripts\n'}
+[4.388020] (lower_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.388918] (lower_controller) StdoutLine: {'line': b'writing ../../build/lower_controller/lower_controller.egg-info/PKG-INFO\n'}
+[4.399112] (global_path) StdoutLine: {'line': b'Installing global_path script to /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/global_path\n'}
+[4.439009] (-) TimerEvent: {}
+[4.467990] (global_path) StdoutLine: {'line': b"writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log'\n"}
+[4.468266] (lower_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/lower_controller/lower_controller.egg-info/dependency_links.txt\n'}
+[4.468416] (lower_controller) StdoutLine: {'line': b'writing entry points to ../../build/lower_controller/lower_controller.egg-info/entry_points.txt\n'}
+[4.468526] (lower_controller) StdoutLine: {'line': b'writing requirements to ../../build/lower_controller/lower_controller.egg-info/requires.txt\n'}
+[4.468618] (lower_controller) StdoutLine: {'line': b'writing top-level names to ../../build/lower_controller/lower_controller.egg-info/top_level.txt\n'}
+[4.471493] (lower_controller) StdoutLine: {'line': b"reading manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'\n"}
+[4.489264] (lower_controller) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.490312] (lower_controller) StdoutLine: {'line': b"writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'\n"}
+[4.493055] (lower_controller) StdoutLine: {'line': b'running build\n'}
+[4.493730] (lower_controller) StdoutLine: {'line': b'running build_py\n'}
+[4.493946] (lower_controller) StdoutLine: {'line': b'running install\n'}
+[4.494493] (lower_controller) StdoutLine: {'line': b'running install_lib\n'}
+[4.499406] (lower_controller) StdoutLine: {'line': b'running install_data\n'}
+[4.499671] (lower_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.501975] (lower_controller) StdoutLine: {'line': b"removing '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.505097] (lower_controller) StdoutLine: {'line': b'Copying ../../build/lower_controller/lower_controller.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info\n'}
+[4.520187] (global_path) CommandEnded: {'returncode': 0}
+[4.524839] (lower_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.539374] (-) TimerEvent: {}
+[4.566662] (lower_controller) StdoutLine: {'line': b'Installing lower_controller_node script to /home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/lower_controller\n'}
+[4.600640] (lower_controller) StdoutLine: {'line': b"writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log'\n"}
+[4.607873] (host_vehicle_filter) StdoutLine: {'line': b'running egg_info\n'}
+[4.608653] (host_vehicle_filter) StdoutLine: {'line': b'writing ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/PKG-INFO\n'}
+[4.611406] (host_vehicle_filter) StdoutLine: {'line': b'writing dependency_links to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/dependency_links.txt\n'}
+[4.617530] (host_vehicle_filter) StdoutLine: {'line': b'writing entry points to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/entry_points.txt\n'}
+[4.639471] (-) TimerEvent: {}
+[4.659879] (global_path) JobEnded: {'identifier': 'global_path', 'rc': 0}
+[4.672912] (host_vehicle_filter) StdoutLine: {'line': b'writing requirements to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/requires.txt\n'}
+[4.673401] (lower_controller) CommandEnded: {'returncode': 0}
+[4.674343] (host_vehicle_filter) StdoutLine: {'line': b'writing top-level names to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/top_level.txt\n'}
+[4.721016] (host_vehicle_filter) StdoutLine: {'line': b"reading manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'\n"}
+[4.724362] (host_vehicle_filter) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.725017] (host_vehicle_filter) StdoutLine: {'line': b"writing manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'\n"}
+[4.730478] (host_vehicle_filter) StdoutLine: {'line': b'running build\n'}
+[4.730833] (host_vehicle_filter) StdoutLine: {'line': b'running build_py\n'}
+[4.731098] (host_vehicle_filter) StdoutLine: {'line': b'running install\n'}
+[4.731721] (host_vehicle_filter) StdoutLine: {'line': b'running install_lib\n'}
+[4.733406] (host_vehicle_filter) StdoutLine: {'line': b'running install_data\n'}
+[4.733595] (host_vehicle_filter) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.735638] (host_vehicle_filter) StdoutLine: {'line': b"removing '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.737627] (host_vehicle_filter) StdoutLine: {'line': b'Copying ../../build/host_vehicle_filter/host_vehicle_filter.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info\n'}
+[4.740283] (-) TimerEvent: {}
+[4.740598] (host_vehicle_filter) StdoutLine: {'line': b'running install_scripts\n'}
+[4.755482] (lower_controller) JobEnded: {'identifier': 'lower_controller', 'rc': 0}
+[4.766820] (host_vehicle_filter) StdoutLine: {'line': b'Installing host_vehicle_filter_node script to /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/host_vehicle_filter\n'}
+[4.767590] (host_vehicle_filter) StdoutLine: {'line': b"writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log'\n"}
+[4.800185] (host_vehicle_filter) CommandEnded: {'returncode': 0}
+[4.815574] (host_vehicle_filter) JobEnded: {'identifier': 'host_vehicle_filter', 'rc': 0}
+[4.840406] (-) TimerEvent: {}
+[4.940651] (-) TimerEvent: {}
+[5.040880] (-) TimerEvent: {}
+[5.141155] (-) TimerEvent: {}
+[5.241397] (-) TimerEvent: {}
+[5.341638] (-) TimerEvent: {}
+[5.441917] (-) TimerEvent: {}
+[5.542303] (-) TimerEvent: {}
+[5.642682] (-) TimerEvent: {}
+[5.743091] (-) TimerEvent: {}
+[5.843469] (-) TimerEvent: {}
+[5.943767] (-) TimerEvent: {}
+[6.043993] (-) TimerEvent: {}
+[6.144361] (-) TimerEvent: {}
+[6.244743] (-) TimerEvent: {}
+[6.345105] (-) TimerEvent: {}
+[6.445493] (-) TimerEvent: {}
+[6.545921] (-) TimerEvent: {}
+[6.571150] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MppiClass::timer_cb()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.571465] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:293:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Key_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.571633] (mppi) StderrLine: {'line': b'  293 |         float \x1b[01;35m\x1b[Key_\x1b[m\x1b[K = ey;\n'}
+[6.571794] (mppi) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.571936] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:294:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kego_yaw_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.572089] (mppi) StderrLine: {'line': b'  294 |         float \x1b[01;35m\x1b[Kego_yaw_\x1b[m\x1b[K = ego_yaw;\n'}
+[6.572234] (mppi) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[6.576411] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MppiClass::virtual_target_cb(umv_msgs::msg::Obstacles_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.576599] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:428:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kax\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.576719] (mppi) StderrLine: {'line': b'  428 |                 float \x1b[01;35m\x1b[Kax\x1b[m\x1b[K = a_values[kk];\n'}
+[6.576817] (mppi) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[6.576981] (mppi) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:410:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcheck\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.577114] (mppi) StderrLine: {'line': b'  410 |         int \x1b[01;35m\x1b[Kcheck\x1b[m\x1b[K = 0;\n'}
+[6.577200] (mppi) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.646046] (-) TimerEvent: {}
+[6.746425] (-) TimerEvent: {}
+[6.846765] (-) TimerEvent: {}
+[6.947058] (-) TimerEvent: {}
+[7.047374] (-) TimerEvent: {}
+[7.147611] (-) TimerEvent: {}
+[7.247868] (-) TimerEvent: {}
+[7.348193] (-) TimerEvent: {}
+[7.448460] (-) TimerEvent: {}
+[7.548773] (-) TimerEvent: {}
+[7.649082] (-) TimerEvent: {}
+[7.749426] (-) TimerEvent: {}
+[7.849769] (-) TimerEvent: {}
+[7.950003] (-) TimerEvent: {}
+[8.050235] (-) TimerEvent: {}
+[8.150449] (-) TimerEvent: {}
+[8.250711] (-) TimerEvent: {}
+[8.351096] (-) TimerEvent: {}
+[8.451504] (-) TimerEvent: {}
+[8.551867] (-) TimerEvent: {}
+[8.652260] (-) TimerEvent: {}
+[8.752630] (-) TimerEvent: {}
+[8.853007] (-) TimerEvent: {}
+[8.953389] (-) TimerEvent: {}
+[9.053764] (-) TimerEvent: {}
+[9.154117] (-) TimerEvent: {}
+[9.254471] (-) TimerEvent: {}
+[9.354829] (-) TimerEvent: {}
+[9.455192] (-) TimerEvent: {}
+[9.555586] (-) TimerEvent: {}
+[9.655857] (-) TimerEvent: {}
+[9.756964] (-) TimerEvent: {}
+[9.857241] (-) TimerEvent: {}
+[9.957499] (-) TimerEvent: {}
+[10.057751] (-) TimerEvent: {}
+[10.158313] (-) TimerEvent: {}
+[10.258756] (-) TimerEvent: {}
+[10.359474] (-) TimerEvent: {}
+[10.460108] (-) TimerEvent: {}
+[10.560542] (-) TimerEvent: {}
+[10.663541] (-) TimerEvent: {}
+[10.763824] (-) TimerEvent: {}
+[10.864354] (-) TimerEvent: {}
+[10.965283] (-) TimerEvent: {}
+[11.065755] (-) TimerEvent: {}
+[11.166520] (-) TimerEvent: {}
+[11.267114] (-) TimerEvent: {}
+[11.367814] (-) TimerEvent: {}
+[11.468636] (-) TimerEvent: {}
+[11.568916] (-) TimerEvent: {}
+[11.669646] (-) TimerEvent: {}
+[11.769953] (-) TimerEvent: {}
+[11.870337] (-) TimerEvent: {}
+[11.972084] (-) TimerEvent: {}
+[12.072364] (-) TimerEvent: {}
+[12.172896] (-) TimerEvent: {}
+[12.275610] (-) TimerEvent: {}
+[12.375975] (-) TimerEvent: {}
+[12.476841] (-) TimerEvent: {}
+[12.577233] (-) TimerEvent: {}
+[12.677708] (-) TimerEvent: {}
+[12.778168] (-) TimerEvent: {}
+[12.878615] (-) TimerEvent: {}
+[12.981225] (-) TimerEvent: {}
+[13.081523] (-) TimerEvent: {}
+[13.181934] (-) TimerEvent: {}
+[13.284130] (-) TimerEvent: {}
+[13.385317] (-) TimerEvent: {}
+[13.487527] (-) TimerEvent: {}
+[13.588876] (-) TimerEvent: {}
+[13.691571] (-) TimerEvent: {}
+[13.791881] (-) TimerEvent: {}
+[13.892916] (-) TimerEvent: {}
+[13.995095] (-) TimerEvent: {}
+[14.095415] (-) TimerEvent: {}
+[14.195899] (-) TimerEvent: {}
+[14.296568] (-) TimerEvent: {}
+[14.397237] (-) TimerEvent: {}
+[14.498101] (-) TimerEvent: {}
+[14.598446] (-) TimerEvent: {}
+[14.700158] (-) TimerEvent: {}
+[14.800658] (-) TimerEvent: {}
+[14.900963] (-) TimerEvent: {}
+[15.001424] (-) TimerEvent: {}
+[15.101828] (-) TimerEvent: {}
+[15.202270] (-) TimerEvent: {}
+[15.302877] (-) TimerEvent: {}
+[15.403690] (-) TimerEvent: {}
+[15.505856] (-) TimerEvent: {}
+[15.606242] (-) TimerEvent: {}
+[15.707790] (-) TimerEvent: {}
+[15.808196] (-) TimerEvent: {}
+[15.908574] (-) TimerEvent: {}
+[16.009653] (-) TimerEvent: {}
+[16.110558] (-) TimerEvent: {}
+[16.212314] (-) TimerEvent: {}
+[16.313417] (-) TimerEvent: {}
+[16.413763] (-) TimerEvent: {}
+[16.514072] (-) TimerEvent: {}
+[16.614396] (-) TimerEvent: {}
+[16.714758] (-) TimerEvent: {}
+[16.815173] (-) TimerEvent: {}
+[16.918456] (-) TimerEvent: {}
+[17.018931] (-) TimerEvent: {}
+[17.119170] (-) TimerEvent: {}
+[17.219510] (-) TimerEvent: {}
+[17.319844] (-) TimerEvent: {}
+[17.420343] (-) TimerEvent: {}
+[17.520970] (-) TimerEvent: {}
+[17.623063] (-) TimerEvent: {}
+[17.723840] (-) TimerEvent: {}
+[17.824527] (-) TimerEvent: {}
+[17.924820] (-) TimerEvent: {}
+[18.025170] (-) TimerEvent: {}
+[18.126400] (-) TimerEvent: {}
+[18.228010] (-) TimerEvent: {}
+[18.328815] (-) TimerEvent: {}
+[18.429125] (-) TimerEvent: {}
+[18.529415] (-) TimerEvent: {}
+[18.630350] (-) TimerEvent: {}
+[18.730672] (-) TimerEvent: {}
+[18.831104] (-) TimerEvent: {}
+[18.931451] (-) TimerEvent: {}
+[19.032086] (-) TimerEvent: {}
+[19.138228] (-) TimerEvent: {}
+[19.241508] (-) TimerEvent: {}
+[19.341866] (-) TimerEvent: {}
+[19.448691] (-) TimerEvent: {}
+[19.551191] (-) TimerEvent: {}
+[19.652518] (-) TimerEvent: {}
+[19.753367] (-) TimerEvent: {}
+[19.855580] (-) TimerEvent: {}
+[19.959529] (-) TimerEvent: {}
+[20.062107] (-) TimerEvent: {}
+[20.162929] (-) TimerEvent: {}
+[20.264581] (-) TimerEvent: {}
+[20.371076] (-) TimerEvent: {}
+[20.471500] (-) TimerEvent: {}
+[20.571836] (-) TimerEvent: {}
+[20.672328] (-) TimerEvent: {}
+[20.772679] (-) TimerEvent: {}
+[20.873088] (-) TimerEvent: {}
+[20.973502] (-) TimerEvent: {}
+[21.073861] (-) TimerEvent: {}
+[21.174204] (-) TimerEvent: {}
+[21.274450] (-) TimerEvent: {}
+[21.374698] (-) TimerEvent: {}
+[21.474921] (-) TimerEvent: {}
+[21.575623] (-) TimerEvent: {}
+[21.675974] (-) TimerEvent: {}
+[21.776922] (-) TimerEvent: {}
+[21.877176] (-) TimerEvent: {}
+[21.977420] (-) TimerEvent: {}
+[22.078689] (-) TimerEvent: {}
+[22.179147] (-) TimerEvent: {}
+[22.279368] (-) TimerEvent: {}
+[22.379610] (-) TimerEvent: {}
+[22.479834] (-) TimerEvent: {}
+[22.580057] (-) TimerEvent: {}
+[22.680282] (-) TimerEvent: {}
+[22.780498] (-) TimerEvent: {}
+[22.880717] (-) TimerEvent: {}
+[22.980934] (-) TimerEvent: {}
+[23.125088] (-) TimerEvent: {}
+[23.225290] (-) TimerEvent: {}
+[23.325516] (-) TimerEvent: {}
+[23.425792] (-) TimerEvent: {}
+[23.526069] (-) TimerEvent: {}
+[23.626321] (-) TimerEvent: {}
+[23.726620] (-) TimerEvent: {}
+[23.826970] (-) TimerEvent: {}
+[23.927580] (-) TimerEvent: {}
+[24.028231] (-) TimerEvent: {}
+[24.128554] (-) TimerEvent: {}
+[24.228825] (-) TimerEvent: {}
+[24.329168] (-) TimerEvent: {}
+[24.429444] (-) TimerEvent: {}
+[24.529703] (-) TimerEvent: {}
+[24.629963] (-) TimerEvent: {}
+[24.730235] (-) TimerEvent: {}
+[24.805559] (mppi) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable mppi_manager\x1b[0m\n'}
+[24.830341] (-) TimerEvent: {}
+[24.930644] (-) TimerEvent: {}
+[25.030965] (-) TimerEvent: {}
+[25.131290] (-) TimerEvent: {}
+[25.231576] (-) TimerEvent: {}
+[25.331829] (-) TimerEvent: {}
+[25.432082] (-) TimerEvent: {}
+[25.532377] (-) TimerEvent: {}
+[25.632727] (-) TimerEvent: {}
+[25.732955] (-) TimerEvent: {}
+[25.833214] (-) TimerEvent: {}
+[25.933442] (-) TimerEvent: {}
+[25.972293] (mppi) StdoutLine: {'line': b'[100%] Built target mppi_manager\n'}
+[25.986012] (mppi) CommandEnded: {'returncode': 0}
+[26.018565] (mppi) JobProgress: {'identifier': 'mppi', 'progress': 'install'}
+[26.018651] (mppi) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vdcl/Desktop/larr_project/umv_control/build/mppi'], 'cwd': '/home/vdcl/Desktop/larr_project/umv_control/build/mppi', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'vdcl'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vdcl'), ('OLDPWD', '/home/vdcl/Desktop/larr_project'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('SYSTEMD_EXEC_PID', '1333'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/AirSim/ros2/install:/home/vdcl/Desktop/larr_project/umv_control/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vdcl'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vdcl'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda-12.2/bin:/opt/ros/humble/bin:/home/vdcl/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/ros/humble/include'), ('SESSION_MANAGER', 'local/vdcl-desktop:@/tmp/.ICE-unix/1305,unix/vdcl-desktop:/tmp/.ICE-unix/1305'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6bf0bce3_6c9e_49be_b628_15af53e2e6e3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.433'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vdcl/Desktop/larr_project/umv_control/build/mppi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble')]), 'shell': False}
+[26.032075] (mppi) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.032484] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi\n'}
+[26.032687] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi\n'}
+[26.032793] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/ament_prefix_path.sh\n'}
+[26.032944] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/ament_prefix_path.dsv\n'}
+[26.033091] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/path.sh\n'}
+[26.033216] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/path.dsv\n'}
+[26.033318] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.bash\n'}
+[26.033423] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.sh\n'}
+[26.033521] (-) TimerEvent: {}
+[26.033686] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.zsh\n'}
+[26.033828] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.dsv\n'}
+[26.033929] (mppi) StdoutLine: {'line': b'-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.dsv\n'}
+[26.034035] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/packages/mppi\n'}
+[26.034140] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/cmake/mppiConfig.cmake\n'}
+[26.034239] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/cmake/mppiConfig-version.cmake\n'}
+[26.034346] (mppi) StdoutLine: {'line': b'-- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.xml\n'}
+[26.038157] (mppi) CommandEnded: {'returncode': 0}
+[26.097332] (mppi) JobEnded: {'identifier': 'mppi', 'rc': 0}
+[26.097771] (-) EventReactorShutdown: {}

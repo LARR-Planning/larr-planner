@@ -1,0 +1,3 @@
+[console_scripts]
+global_path = global_path.global_path:main
+

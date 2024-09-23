@@ -1,0 +1,340 @@
+[0.019s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake /home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs -DCMAKE_INSTALL_PREFIX=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs
+[0.844s] -- The C compiler identification is GNU 11.4.0
+[1.370s] -- The CXX compiler identification is GNU 11.4.0
+[1.481s] -- Detecting C compiler ABI info
+[1.633s] -- Detecting C compiler ABI info - done
+[1.647s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.651s] -- Detecting C compile features
+[1.653s] -- Detecting C compile features - done
+[1.670s] -- Detecting CXX compiler ABI info
+[1.811s] -- Detecting CXX compiler ABI info - done
+[1.822s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.823s] -- Detecting CXX compile features
+[1.823s] -- Detecting CXX compile features - done
+[1.858s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.007s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.274s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.306s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.449s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[2.475s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.538s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[3.181s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.901s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.902s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.927s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.927s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.928s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.928s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.945s] -- Found PythonExtra: .so  
+[4.047s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.066s] -- Added test 'lint_cmake' to check CMake code style
+[4.068s] -- Added test 'xmllint' to check XML markup files
+[4.071s] -- Configuring done
+[4.117s] -- Generating done
+[4.262s] -- Build files have been written to: /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs
+[4.263s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake /home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs -DCMAKE_INSTALL_PREFIX=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs
+[4.265s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs -- -j8 -l8
+[4.386s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.402s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.410s] [  3%] Built target ament_cmake_python_copy_umv_msgs
+[4.691s] running egg_info
+[4.691s] creating umv_msgs.egg-info
+[4.692s] writing umv_msgs.egg-info/PKG-INFO
+[4.692s] writing dependency_links to umv_msgs.egg-info/dependency_links.txt
+[4.692s] writing top-level names to umv_msgs.egg-info/top_level.txt
+[4.693s] writing manifest file 'umv_msgs.egg-info/SOURCES.txt'
+[4.695s] reading manifest file 'umv_msgs.egg-info/SOURCES.txt'
+[4.696s] writing manifest file 'umv_msgs.egg-info/SOURCES.txt'
+[4.761s] [  3%] Built target ament_cmake_python_build_umv_msgs_egg
+[4.980s] [  4%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_c.dir/rosidl_generator_c/umv_msgs/msg/detail/global_path__functions.c.o[0m
+[4.980s] [  7%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_c.dir/rosidl_generator_c/umv_msgs/msg/detail/acu_cmd__functions.c.o[0m
+[4.980s] [  7%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_c.dir/rosidl_generator_c/umv_msgs/msg/detail/host_vehicle_filter__functions.c.o[0m
+[4.981s] [  9%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_c.dir/rosidl_generator_c/umv_msgs/msg/detail/local_ref_path__functions.c.o[0m
+[4.982s] [ 11%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_c.dir/rosidl_generator_c/umv_msgs/msg/detail/obstacles__functions.c.o[0m
+[5.242s] [ 12%] [32m[1mLinking C shared library libumv_msgs__rosidl_generator_c.so[0m
+[5.289s] [ 12%] Built target umv_msgs__cpp
+[5.304s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.304s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.304s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.392s] [ 17%] Built target umv_msgs__rosidl_generator_c
+[5.413s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.413s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.418s] [ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.962s] [ 23%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/umv_msgs/msg/local_ref_path__type_support.cpp.o[0m
+[5.964s] [ 25%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/umv_msgs/msg/host_vehicle_filter__type_support.cpp.o[0m
+[5.966s] [ 26%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/umv_msgs/msg/acu_cmd__type_support.cpp.o[0m
+[6.178s] [ 28%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/umv_msgs/msg/local_ref_path__type_support.cpp.o[0m
+[6.257s] [ 30%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/umv_msgs/msg/detail/local_ref_path__type_support.cpp.o[0m
+[6.329s] [ 31%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/umv_msgs/msg/host_vehicle_filter__type_support.cpp.o[0m
+[6.345s] [ 33%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/umv_msgs/msg/detail/dds_fastrtps/local_ref_path__type_support.cpp.o[0m
+[6.434s] [ 34%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/umv_msgs/msg/acu_cmd__type_support.cpp.o[0m
+[6.441s] [ 36%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/umv_msgs/msg/detail/local_ref_path__type_support.c.o[0m
+[6.450s] [ 38%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/umv_msgs/msg/detail/local_ref_path__type_support_c.cpp.o[0m
+[6.562s] [ 39%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/umv_msgs/msg/detail/host_vehicle_filter__type_support.c.o[0m
+[6.562s] [ 41%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/umv_msgs/msg/global_path__type_support.cpp.o[0m
+[6.574s] [ 42%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/umv_msgs/msg/obstacles__type_support.cpp.o[0m
+[6.577s] [ 44%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/umv_msgs/msg/detail/host_vehicle_filter__type_support_c.cpp.o[0m
+[6.590s] [ 46%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/umv_msgs/msg/global_path__type_support.cpp.o[0m
+[6.624s] [ 47%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/umv_msgs/msg/detail/acu_cmd__type_support_c.cpp.o[0m
+[6.639s] [ 49%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/umv_msgs/msg/detail/acu_cmd__type_support.c.o[0m
+[6.643s] [ 50%] [32m[1mLinking CXX shared library libumv_msgs__rosidl_typesupport_c.so[0m
+[6.821s] [ 52%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/umv_msgs/msg/detail/global_path__type_support.c.o[0m
+[6.836s] [ 52%] Built target umv_msgs__rosidl_typesupport_c
+[6.878s] [ 53%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/umv_msgs/msg/obstacles__type_support.cpp.o[0m
+[6.930s] [ 55%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/umv_msgs/msg/detail/obstacles__type_support.c.o[0m
+[7.106s] [ 57%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/umv_msgs/msg/detail/host_vehicle_filter__type_support.cpp.o[0m
+[7.109s] [ 58%] [32m[1mLinking C shared library libumv_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.134s] [ 60%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/umv_msgs/msg/detail/dds_fastrtps/host_vehicle_filter__type_support.cpp.o[0m
+[7.173s] [ 61%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/umv_msgs/msg/detail/acu_cmd__type_support.cpp.o[0m
+[7.220s] [ 61%] Built target umv_msgs__rosidl_typesupport_introspection_c
+[7.238s] [ 63%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/umv_msgs/msg/detail/global_path__type_support.cpp.o[0m
+[7.260s] [ 65%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/umv_msgs/msg/detail/obstacles__type_support.cpp.o[0m
+[7.260s] [ 66%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/umv_msgs/msg/detail/dds_fastrtps/acu_cmd__type_support.cpp.o[0m
+[7.334s] [ 68%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/umv_msgs/msg/detail/global_path__type_support_c.cpp.o[0m
+[7.497s] [ 69%] [32m[1mLinking CXX shared library libumv_msgs__rosidl_typesupport_cpp.so[0m
+[7.703s] [ 69%] Built target umv_msgs__rosidl_typesupport_cpp
+[7.743s] [ 71%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/umv_msgs/msg/detail/obstacles__type_support_c.cpp.o[0m
+[7.891s] [ 73%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/umv_msgs/msg/detail/dds_fastrtps/global_path__type_support.cpp.o[0m
+[7.935s] [ 74%] [32mBuilding CXX object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/umv_msgs/msg/detail/dds_fastrtps/obstacles__type_support.cpp.o[0m
+[8.073s] [ 76%] [32m[1mLinking CXX shared library libumv_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.322s] [ 76%] Built target umv_msgs__rosidl_typesupport_introspection_cpp
+[8.330s] [ 77%] [32m[1mLinking CXX shared library libumv_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.479s] [ 77%] Built target umv_msgs__rosidl_typesupport_fastrtps_c
+[8.533s] [ 79%] [32m[1mLinking CXX shared library libumv_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.743s] [ 79%] Built target umv_msgs__rosidl_typesupport_fastrtps_cpp
+[8.764s] [ 79%] Built target umv_msgs
+[8.787s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.673s] [ 80%] Built target umv_msgs__py
+[9.699s] [ 82%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_py.dir/rosidl_generator_py/umv_msgs/msg/_acu_cmd_s.c.o[0m
+[9.700s] [ 84%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_py.dir/rosidl_generator_py/umv_msgs/msg/_global_path_s.c.o[0m
+[9.703s] [ 85%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_py.dir/rosidl_generator_py/umv_msgs/msg/_obstacles_s.c.o[0m
+[9.703s] [ 87%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_py.dir/rosidl_generator_py/umv_msgs/msg/_local_ref_path_s.c.o[0m
+[9.704s] [ 88%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_generator_py.dir/rosidl_generator_py/umv_msgs/msg/_host_vehicle_filter_s.c.o[0m
+[9.907s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/umv_msgs/libumv_msgs__rosidl_generator_py.so[0m
+[10.073s] [ 90%] Built target umv_msgs__rosidl_generator_py
+[10.145s] [ 92%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.150s] [ 93%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.150s] [ 95%] [32mBuilding C object CMakeFiles/umv_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.281s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.289s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.292s] [100%] [32m[1mLinking C shared library rosidl_generator_py/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.337s] [100%] Built target umv_msgs__rosidl_typesupport_c__pyext
+[10.358s] [100%] Built target umv_msgs__rosidl_typesupport_introspection_c__pyext
+[10.358s] [100%] Built target umv_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.373s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs -- -j8 -l8
+[10.538s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs
+[10.547s] -- Install configuration: ""
+[10.547s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/rosidl_interfaces/umv_msgs
+[10.547s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/global_path.h
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/acu_cmd.h
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/host_vehicle_filter.h
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/obstacles.h
+[10.548s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/local_ref_path.h
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__struct.h
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__functions.c
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__functions.c
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.h
+[10.549s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.h
+[10.550s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__struct.h
+[10.550s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__functions.c
+[10.550s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__struct.h
+[10.550s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__functions.h
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__functions.c
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.h
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__functions.h
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__functions.c
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__struct.h
+[10.551s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__struct.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__functions.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__functions.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__functions.h
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/library_path.sh
+[10.552s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/library_path.dsv
+[10.553s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_c.so
+[10.553s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_c.so" to ""
+[10.553s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.553s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.553s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.553s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_fastrtps_c.h
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_fastrtps_c.h
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_c.h
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_fastrtps_c.h
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_fastrtps_c.h
+[10.554s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_c.so
+[10.555s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.555s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.555s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.555s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.555s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.555s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.c
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.c
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_introspection_c.h
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.c
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.c
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_introspection_c.h
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_introspection_c.h
+[10.556s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_introspection_c.h
+[10.557s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_c.h
+[10.557s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.c
+[10.557s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_c.so
+[10.557s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.557s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_c.so
+[10.558s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_c.so" to ""
+[10.558s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.558s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.558s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/host_vehicle_filter.hpp
+[10.559s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/global_path.hpp
+[10.559s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/obstacles.hpp
+[10.559s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/local_ref_path.hpp
+[10.559s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/acu_cmd.hpp
+[10.559s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.559s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__traits.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__builder.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__traits.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__builder.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__builder.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__builder.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__builder.hpp
+[10.560s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__struct.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__struct.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__traits.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__struct.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__traits.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__struct.hpp
+[10.561s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__traits.hpp
+[10.562s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__struct.hpp
+[10.562s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.562s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.562s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.562s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_fastrtps_cpp.hpp
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_fastrtps_cpp.hpp
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_fastrtps_cpp.hpp
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/dds_fastrtps
+[10.563s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.564s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.564s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.564s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs
+[10.564s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg
+[10.564s] -- Up-to-date: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail
+[10.565s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__rosidl_typesupport_introspection_cpp.hpp
+[10.565s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__rosidl_typesupport_introspection_cpp.hpp
+[10.565s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/acu_cmd__type_support.cpp
+[10.565s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/local_ref_path__type_support.cpp
+[10.565s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__type_support.cpp
+[10.566s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__rosidl_typesupport_introspection_cpp.hpp
+[10.566s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/host_vehicle_filter__rosidl_typesupport_introspection_cpp.hpp
+[10.566s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__type_support.cpp
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/obstacles__rosidl_typesupport_introspection_cpp.hpp
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/include/umv_msgs/umv_msgs/msg/detail/global_path__type_support.cpp
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_cpp.so
+[10.567s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_cpp.so
+[10.567s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_typesupport_cpp.so" to ""
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/pythonpath.sh
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/pythonpath.dsv
+[10.567s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info
+[10.568s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.568s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.594s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[10.594s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[10.594s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs
+[10.594s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg
+[10.594s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_acu_cmd.py
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_local_ref_path_s.c
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_local_ref_path.py
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_acu_cmd_s.c
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_obstacles.py
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_global_path.py
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_host_vehicle_filter.py
+[10.595s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_obstacles_s.c
+[10.596s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/__init__.py
+[10.596s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_host_vehicle_filter_s.c
+[10.596s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_global_path_s.c
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_c.c
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/libumv_msgs__rosidl_generator_py.so
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/__init__.py
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.597s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/_umv_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.654s] Listing '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs'...
+[10.654s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/__init__.py'...
+[10.654s] Listing '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg'...
+[10.654s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/__init__.py'...
+[10.654s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_acu_cmd.py'...
+[10.654s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_global_path.py'...
+[10.655s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_host_vehicle_filter.py'...
+[10.655s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_local_ref_path.py'...
+[10.655s] Compiling '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/msg/_obstacles.py'...
+[10.662s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.662s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.662s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.662s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.662s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.663s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/local/lib/python3.10/dist-packages/umv_msgs/umv_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.663s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_py.so
+[10.663s] -- Set runtime path of "/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/libumv_msgs__rosidl_generator_py.so" to ""
+[10.663s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/LocalRefPath.idl
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/HostVehicleFilter.idl
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/AcuCmd.idl
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/GlobalPath.idl
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/Obstacles.idl
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/LocalRefPath.msg
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/HostVehicleFilter.msg
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/AcuCmd.msg
+[10.664s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/GlobalPath.msg
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/msg/Obstacles.msg
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/package_run_dependencies/umv_msgs
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/parent_prefix_path/umv_msgs
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/ament_prefix_path.sh
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/ament_prefix_path.dsv
+[10.665s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/path.sh
+[10.666s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/environment/path.dsv
+[10.666s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.bash
+[10.666s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.sh
+[10.666s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.zsh
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/local_setup.dsv
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.dsv
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/ament_index/resource_index/packages/umv_msgs
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cExport.cmake
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.667s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.668s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.668s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cExport.cmake
+[10.668s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.668s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_cppExport.cmake
+[10.668s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.669s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.669s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.669s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.669s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cppExport.cmake
+[10.669s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_pyExport.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/export_umv_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake-extras.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.670s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.671s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.671s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.671s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgsConfig.cmake
+[10.671s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/cmake/umv_msgsConfig-version.cmake
+[10.671s] -- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.xml
+[10.676s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs

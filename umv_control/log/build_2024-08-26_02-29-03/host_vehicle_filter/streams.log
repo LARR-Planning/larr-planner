@@ -1,0 +1,38 @@
+[1.666s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data
+[2.077s] running egg_info
+[2.078s] creating ../../build/host_vehicle_filter/host_vehicle_filter.egg-info
+[2.078s] writing ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/PKG-INFO
+[2.078s] writing dependency_links to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/dependency_links.txt
+[2.079s] writing entry points to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/entry_points.txt
+[2.081s] writing requirements to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/requires.txt
+[2.081s] writing top-level names to ../../build/host_vehicle_filter/host_vehicle_filter.egg-info/top_level.txt
+[2.082s] writing manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+[2.084s] reading manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+[2.085s] adding license file 'LICENSE'
+[2.086s] writing manifest file '../../build/host_vehicle_filter/host_vehicle_filter.egg-info/SOURCES.txt'
+[2.086s] running build
+[2.086s] running build_py
+[2.086s] creating /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build
+[2.086s] creating /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib
+[2.086s] creating /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib/host_vehicle_filter
+[2.087s] copying host_vehicle_filter/host_vehicle_filter_node.py -> /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib/host_vehicle_filter
+[2.087s] copying host_vehicle_filter/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib/host_vehicle_filter
+[2.087s] running install
+[2.087s] running install_lib
+[2.088s] creating /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter
+[2.088s] copying /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib/host_vehicle_filter/host_vehicle_filter_node.py -> /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter
+[2.088s] copying /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build/lib/host_vehicle_filter/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter
+[2.089s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter/host_vehicle_filter_node.py to host_vehicle_filter_node.cpython-310.pyc
+[2.093s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter/__init__.py to __init__.cpython-310.pyc
+[2.093s] running install_data
+[2.093s] creating /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/ament_index
+[2.093s] creating /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/ament_index/resource_index
+[2.094s] creating /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/ament_index/resource_index/packages
+[2.094s] copying resource/host_vehicle_filter -> /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/ament_index/resource_index/packages
+[2.094s] copying package.xml -> /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter
+[2.094s] running install_egg_info
+[2.097s] Copying ../../build/host_vehicle_filter/host_vehicle_filter.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages/host_vehicle_filter-0.0.0-py3.10.egg-info
+[2.098s] running install_scripts
+[2.124s] Installing host_vehicle_filter_node script to /home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/host_vehicle_filter
+[2.125s] writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log'
+[2.160s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data

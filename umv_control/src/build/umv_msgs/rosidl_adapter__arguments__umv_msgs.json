@@ -1,0 +1,10 @@
+{
+  "package_name": "umv_msgs",
+  "non_idl_tuples": [
+    "/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs:msg/LocalRefPath.msg",
+    "/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs:msg/HostVehicleFilter.msg",
+    "/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs:msg/AcuCmd.msg",
+    "/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs:msg/GlobalPath.msg",
+    "/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs:msg/Obstacles.msg"
+  ]
+}

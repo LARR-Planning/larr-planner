@@ -1,0 +1,22 @@
+[3.737s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data
+[4.811s] running egg_info
+[4.812s] writing ../../build/lower_controller/lower_controller.egg-info/PKG-INFO
+[4.812s] writing dependency_links to ../../build/lower_controller/lower_controller.egg-info/dependency_links.txt
+[4.813s] writing entry points to ../../build/lower_controller/lower_controller.egg-info/entry_points.txt
+[4.813s] writing requirements to ../../build/lower_controller/lower_controller.egg-info/requires.txt
+[4.818s] writing top-level names to ../../build/lower_controller/lower_controller.egg-info/top_level.txt
+[4.818s] reading manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[4.834s] adding license file 'LICENSE'
+[4.834s] writing manifest file '../../build/lower_controller/lower_controller.egg-info/SOURCES.txt'
+[4.834s] running build
+[4.834s] running build_py
+[4.841s] running install
+[4.842s] running install_lib
+[4.847s] running install_data
+[4.847s] running install_egg_info
+[4.853s] removing '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[4.853s] Copying ../../build/lower_controller/lower_controller.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages/lower_controller-0.0.0-py3.10.egg-info
+[4.853s] running install_scripts
+[4.915s] Installing lower_controller_node script to /home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/lower_controller
+[4.918s] writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log'
+[5.009s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data

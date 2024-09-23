@@ -1,0 +1,6 @@
+{
+  "package_name": "mppi",
+  "non_idl_tuples": [
+    "/home/jeongtae/umv_control/src/mppi:msg/LocalRefPath.msg"
+  ]
+}

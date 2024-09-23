@@ -1,0 +1,7 @@
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kumv_msgs/msg/virtual_target.hpp: 그런 파일이나 디렉터리가 없습니다
+    4 | #include [01;31m[K"umv_msgs/msg/virtual_target.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mppi_manager.dir/build.make:76: CMakeFiles/mppi_manager.dir/src/mppi.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mppi_manager.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

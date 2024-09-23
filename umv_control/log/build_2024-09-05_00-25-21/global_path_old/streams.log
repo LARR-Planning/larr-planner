@@ -1,0 +1,32 @@
+[1.689s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path_old': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_path_old build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/install.log --single-version-externally-managed install_data
+[1.993s] running egg_info
+[1.993s] creating ../../build/global_path_old/global_path_old.egg-info
+[1.993s] writing ../../build/global_path_old/global_path_old.egg-info/PKG-INFO
+[1.994s] writing dependency_links to ../../build/global_path_old/global_path_old.egg-info/dependency_links.txt
+[1.994s] writing entry points to ../../build/global_path_old/global_path_old.egg-info/entry_points.txt
+[1.994s] writing requirements to ../../build/global_path_old/global_path_old.egg-info/requires.txt
+[1.994s] writing top-level names to ../../build/global_path_old/global_path_old.egg-info/top_level.txt
+[1.994s] writing manifest file '../../build/global_path_old/global_path_old.egg-info/SOURCES.txt'
+[1.995s] reading manifest file '../../build/global_path_old/global_path_old.egg-info/SOURCES.txt'
+[1.995s] adding license file 'LICENSE'
+[1.996s] writing manifest file '../../build/global_path_old/global_path_old.egg-info/SOURCES.txt'
+[2.002s] running build
+[2.002s] running build_py
+[2.002s] creating /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build
+[2.002s] creating /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib
+[2.003s] creating /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib/global_path
+[2.003s] copying global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib/global_path
+[2.003s] copying global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib/global_path
+[2.003s] running install
+[2.003s] running install_lib
+[2.003s] creating /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages/global_path
+[2.003s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib/global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages/global_path
+[2.004s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build/lib/global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages/global_path
+[2.004s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages/global_path/__init__.py to __init__.cpython-310.pyc
+[2.004s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages/global_path/global_path.py to global_path.cpython-310.pyc
+[2.005s] running install_data
+[2.005s] creating /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/share/ament_index
+[2.005s] creating /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/share/ament_index/resource_index
+[2.005s] creating /home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/share/ament_index/resource_index/packages
+[2.006s] error: can't copy 'resource/global_path_old': doesn't exist or not a regular file
+[2.029s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path_old' returned '1': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path_old/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_path_old build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/global_path_old/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+std_msgs/Header header
+float64[] local_ref_xs
+float64[] local_ref_ys
+float64[] local_ref_ss
+float64[] local_ref_yaws
+float64[] local_ref_curvs
+float64 ey
+float64 eyaw
+float64 ego_s

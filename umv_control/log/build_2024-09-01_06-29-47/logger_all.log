@@ -1,0 +1,462 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d76fe8ab250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d76fe8aada0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d76fe8aada0>>, mixin_verb=('build',))
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.325s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.325s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vdcl/Desktop/larr_project/umv_control'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/global_path) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/global_path' with type 'ros.ament_python' and name 'global_path'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/host_vehicle_filter) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/host_vehicle_filter' with type 'ros.ament_python' and name 'host_vehicle_filter'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/lower_controller) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lower_controller' with type 'ros.ament_python' and name 'lower_controller'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_planner) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_planner' with type 'ros.ament_python' and name 'motion_planner'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mppi) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mppi' with type 'ros.ament_cmake' and name 'mppi'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/umv_msgs) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/umv_msgs' with type 'ros.ament_cmake' and name 'umv_msgs'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/utils) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/utils' with type 'ros.ament_python' and name 'utils'
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.381s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/vdcl/Desktop/larr_project/AirSim/ros2/install
+[0.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/vdcl/Desktop/larr_project/umv_control/install
+[0.383s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 204 installed packages in /opt/ros/humble
+[0.383s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'motion_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'motion_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner', 'symlink_install': False, 'test_result_base': None}
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_target' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.416s] Level 5:colcon.colcon_core.verb:set package 'umv_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.416s] DEBUG:colcon.colcon_core.verb:Building package 'umv_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/utils', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/utils', 'symlink_install': False, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'global_path' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'global_path' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/global_path', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/global_path', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/global_path', 'symlink_install': False, 'test_result_base': None}
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_target' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.418s] Level 5:colcon.colcon_core.verb:set package 'host_vehicle_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.418s] DEBUG:colcon.colcon_core.verb:Building package 'host_vehicle_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter', 'symlink_install': False, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'lower_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'lower_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller', 'symlink_install': False, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_cache' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_clean_first' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'cmake_force_configure' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'ament_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'mppi' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.419s] DEBUG:colcon.colcon_core.verb:Building package 'mppi' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vdcl/Desktop/larr_project/umv_control/build/mppi', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vdcl/Desktop/larr_project/umv_control/install/mppi', 'merge_install': False, 'path': '/home/vdcl/Desktop/larr_project/umv_control/src/mppi', 'symlink_install': False, 'test_result_base': None}
+[0.420s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.420s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vdcl/Desktop/larr_project/umv_control/src/umv_msgs'
+[0.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.426s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.426s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.434s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner' with build type 'ament_python'
+[0.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_planner', 'ament_prefix_path')
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/ament_prefix_path.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/ament_prefix_path.dsv'
+[0.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.443s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/utils' with build type 'ament_python'
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'ament_prefix_path')
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/ament_prefix_path.ps1'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/ament_prefix_path.dsv'
+[0.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/ament_prefix_path.sh'
+[0.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs -- -j8 -l8
+[0.960s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner'
+[0.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.511s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vdcl/Desktop/larr_project/umv_control/src/utils'
+[1.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.512s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs -- -j8 -l8
+[1.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs
+[1.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umv_msgs)
+[1.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/umv_msgs
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs' for CMake module files
+[1.922s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs' for CMake config files
+[1.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('umv_msgs', 'cmake_prefix_path')
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.ps1'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.dsv'
+[1.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.sh'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib'
+[1.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('umv_msgs', 'ld_library_path_lib')
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.ps1'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.dsv'
+[1.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.sh'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/bin'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/pkgconfig/umv_msgs.pc'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/python3.10/site-packages'
+[1.926s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/bin'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.dsv'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.sh'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.bash'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.zsh'
+[1.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/colcon-core/packages/umv_msgs)
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data
+[2.137s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(umv_msgs)
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs' for CMake module files
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs' for CMake config files
+[2.140s] Level 1:colcon.colcon_core.shell:create_environment_hook('umv_msgs', 'cmake_prefix_path')
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.ps1'
+[2.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.dsv'
+[2.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/cmake_prefix_path.sh'
+[2.144s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib'
+[2.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('umv_msgs', 'ld_library_path_lib')
+[2.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/hook/ld_library_path_lib.sh'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/bin'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/pkgconfig/umv_msgs.pc'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib/python3.10/site-packages'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/bin'
+[2.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.ps1'
+[2.153s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.dsv'
+[2.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.sh'
+[2.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.bash'
+[2.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/umv_msgs/package.zsh'
+[2.156s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/share/colcon-core/packages/umv_msgs)
+[2.157s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path' with build type 'ament_python'
+[2.157s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_path', 'ament_prefix_path')
+[2.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/ament_prefix_path.ps1'
+[2.167s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/ament_prefix_path.dsv'
+[2.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/ament_prefix_path.sh'
+[2.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.233s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter' with build type 'ament_python'
+[2.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('host_vehicle_filter', 'ament_prefix_path')
+[2.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/ament_prefix_path.ps1'
+[2.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/ament_prefix_path.dsv'
+[2.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/ament_prefix_path.sh'
+[2.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller' with build type 'ament_python'
+[2.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('lower_controller', 'ament_prefix_path')
+[2.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/ament_prefix_path.ps1'
+[2.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/ament_prefix_path.dsv'
+[2.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/ament_prefix_path.sh'
+[2.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vdcl/Desktop/larr_project/umv_control/src/mppi' with build type 'ament_cmake'
+[2.291s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vdcl/Desktop/larr_project/umv_control/src/mppi'
+[2.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/utils': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/utils/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/utils/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/utils/install.log --single-version-externally-managed install_data
+[2.883s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path'
+[2.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.884s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.500s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter'
+[3.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.812s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller'
+[3.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8
+[3.828s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner' for CMake module files
+[3.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner' returned '0': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data
+[3.829s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner' for CMake config files
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib'
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/bin'
+[3.830s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/pkgconfig/motion_planner.pc'
+[3.831s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages'
+[3.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_planner', 'pythonpath')
+[3.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/pythonpath.ps1'
+[3.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/pythonpath.dsv'
+[3.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/hook/pythonpath.sh'
+[3.833s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/bin'
+[3.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_planner)
+[3.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/package.ps1'
+[3.834s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/package.dsv'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/package.sh'
+[3.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/package.bash'
+[3.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/motion_planner/package.zsh'
+[3.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/share/colcon-core/packages/motion_planner)
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils' for CMake module files
+[3.837s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils' for CMake config files
+[3.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/utils' returned '0': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/utils/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/utils build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/utils/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/utils/install.log --single-version-externally-managed install_data
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils/bin'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/pkgconfig/utils.pc'
+[3.839s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils/lib/python3.10/site-packages'
+[3.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('utils', 'pythonpath')
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/pythonpath.ps1'
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/pythonpath.dsv'
+[3.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/hook/pythonpath.sh'
+[3.841s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/utils/bin'
+[3.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(utils)
+[3.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/package.ps1'
+[3.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/package.dsv'
+[3.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/package.sh'
+[3.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/package.bash'
+[3.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/utils/package.zsh'
+[3.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/utils/share/colcon-core/packages/utils)
+[4.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data
+[4.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data
+[4.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/global_path/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_path build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log --single-version-externally-managed install_data
+[5.269s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller' for CMake module files
+[5.270s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller' for CMake config files
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib'
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/bin'
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/pkgconfig/lower_controller.pc'
+[5.271s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages'
+[5.271s] Level 1:colcon.colcon_core.shell:create_environment_hook('lower_controller', 'pythonpath')
+[5.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/pythonpath.ps1'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/pythonpath.dsv'
+[5.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/hook/pythonpath.sh'
+[5.275s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/bin'
+[5.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lower_controller)
+[5.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/lower_controller' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lower_controller build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/lower_controller/install.log --single-version-externally-managed install_data
+[5.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/package.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/package.dsv'
+[5.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/package.sh'
+[5.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/package.bash'
+[5.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/lower_controller/package.zsh'
+[5.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller/share/colcon-core/packages/lower_controller)
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path' for CMake module files
+[5.468s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path' for CMake config files
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib'
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/bin'
+[5.469s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/pkgconfig/global_path.pc'
+[5.470s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages'
+[5.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('global_path', 'pythonpath')
+[5.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/pythonpath.ps1'
+[5.471s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/global_path/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_path build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log --single-version-externally-managed install_data
+[5.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/pythonpath.dsv'
+[5.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/hook/pythonpath.sh'
+[5.473s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/bin'
+[5.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(global_path)
+[5.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/package.ps1'
+[5.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/package.dsv'
+[5.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/package.sh'
+[5.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/package.bash'
+[5.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/global_path/package.zsh'
+[5.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/global_path/share/colcon-core/packages/global_path)
+[5.479s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter' for CMake module files
+[5.480s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter' for CMake config files
+[5.481s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib'
+[5.481s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/bin'
+[5.481s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/pkgconfig/host_vehicle_filter.pc'
+[5.481s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages'
+[5.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('host_vehicle_filter', 'pythonpath')
+[5.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/pythonpath.ps1'
+[5.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/pythonpath.dsv'
+[5.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/host_vehicle_filter' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/host_vehicle_filter build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/host_vehicle_filter/install.log --single-version-externally-managed install_data
+[5.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/hook/pythonpath.sh'
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/bin'
+[5.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(host_vehicle_filter)
+[5.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/package.ps1'
+[5.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/package.dsv'
+[5.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/package.sh'
+[5.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/package.bash'
+[5.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/host_vehicle_filter/package.zsh'
+[5.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter/share/colcon-core/packages/host_vehicle_filter)
+[24.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8
+[24.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/mppi
+[24.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mppi)
+[24.834s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi' for CMake module files
+[24.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi' returned '0': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vdcl/Desktop/larr_project/umv_control/build/mppi
+[24.835s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi' for CMake config files
+[24.835s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'cmake_prefix_path')
+[24.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.ps1'
+[24.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.dsv'
+[24.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.sh'
+[24.837s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/bin'
+[24.837s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/lib/pkgconfig/mppi.pc'
+[24.838s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/lib/python3.10/site-packages'
+[24.838s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/bin'
+[24.838s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.ps1'
+[24.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.dsv'
+[24.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.sh'
+[24.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.bash'
+[24.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.zsh'
+[24.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/colcon-core/packages/mppi)
+[24.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mppi)
+[24.878s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi' for CMake module files
+[24.879s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi' for CMake config files
+[24.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('mppi', 'cmake_prefix_path')
+[24.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.ps1'
+[24.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.dsv'
+[24.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/hook/cmake_prefix_path.sh'
+[24.882s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/bin'
+[24.883s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/lib/pkgconfig/mppi.pc'
+[24.883s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/lib/python3.10/site-packages'
+[24.884s] Level 1:colcon.colcon_core.environment:checking '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/bin'
+[24.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.ps1'
+[24.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.dsv'
+[24.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.sh'
+[24.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.bash'
+[24.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.zsh'
+[24.888s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/colcon-core/packages/mppi)
+[24.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.889s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.889s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.896s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.896s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.912s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.912s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vdcl/Desktop/larr_project/umv_control/install/local_setup.ps1'
+[24.914s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vdcl/Desktop/larr_project/umv_control/install/_local_setup_util_ps1.py'
+[24.918s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vdcl/Desktop/larr_project/umv_control/install/setup.ps1'
+[24.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vdcl/Desktop/larr_project/umv_control/install/local_setup.sh'
+[24.924s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vdcl/Desktop/larr_project/umv_control/install/_local_setup_util_sh.py'
+[24.925s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vdcl/Desktop/larr_project/umv_control/install/setup.sh'
+[24.927s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vdcl/Desktop/larr_project/umv_control/install/local_setup.bash'
+[24.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vdcl/Desktop/larr_project/umv_control/install/setup.bash'
+[24.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vdcl/Desktop/larr_project/umv_control/install/local_setup.zsh'
+[24.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vdcl/Desktop/larr_project/umv_control/install/setup.zsh'

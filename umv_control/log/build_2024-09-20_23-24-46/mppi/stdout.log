@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target mppi_manager[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o[0m
+[ 66%] [32mBuilding CUDA object CMakeFiles/mppi_manager.dir/src/yj_utils_project2.cu.o[0m

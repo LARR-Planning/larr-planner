@@ -1,0 +1,24 @@
+[1.592s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8
+[1.763s] [35m[1mConsolidate compiler generated dependencies of target mppi_manager[0m
+[1.858s] [ 33%] [32mBuilding CUDA object CMakeFiles/mppi_manager.dir/src/yj_utils_project2.cu.o[0m
+[4.359s] [01m[0m[01m/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/yj_utils_project2.cu(45)[0m: [01;31merror[0m: expected a ";"
+[4.359s]   const float ey_bound_min_LRFS = -0.5
+[4.359s]   ^
+[4.359s] 
+[4.378s] [01m[0m[01m/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/yj_utils_project2.cu(1344)[0m: [01;31merror[0m: identifier "[01mey_bound_max[0m" is undefined
+[4.378s]       RoadBoundaryOutPotentialKernel<<<numBlocks, BLOCKSIZE_X>>>(sampling_cnt_N0, d_Rs, cuda_ego_eys, ey_bound_min, ey_bound_max);
+[4.378s]                                                                                                                     ^
+[4.378s] 
+[4.400s] [01m[0m[01m/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/yj_utils_project2.cu(2118)[0m: [01;31merror[0m: identifier "[01mey_bound_min_LRFS[0m" is undefined
+[4.400s]                   d_Actual_steers, d_reference_curvs, d_dss, veh_whlbase, d_steer_intervals, steeringAngleMax, ey_bound_min_LRFS, ey_bound_max_LRFS, d_yaws, ref_yaws[kk], ref_yaws[kk+1],
+[4.400s]                                                                                                                ^
+[4.400s] 
+[4.401s] [01m[0m[01m/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/yj_utils_project2.cu(2176)[0m: [01;31merror[0m: identifier "[01mey_bound_max[0m" is undefined
+[4.401s]           d_steer_mins, d_steer_maxs, ey_bound_min, ey_bound_max);
+[4.401s]                                                     ^
+[4.401s] 
+[4.421s] 4 errors detected in the compilation of "/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/yj_utils_project2.cu".
+[4.459s] gmake[2]: *** [CMakeFiles/mppi_manager.dir/build.make:90: CMakeFiles/mppi_manager.dir/src/yj_utils_project2.cu.o] 오류 2
+[4.459s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mppi_manager.dir/all] 오류 2
+[4.459s] gmake: *** [Makefile:146: all] 오류 2
+[4.462s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi' returned '2': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8

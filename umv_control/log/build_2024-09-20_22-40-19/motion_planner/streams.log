@@ -1,0 +1,22 @@
+[2.273s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data
+[2.780s] running egg_info
+[2.781s] writing ../../build/motion_planner/motion_planner.egg-info/PKG-INFO
+[2.782s] writing dependency_links to ../../build/motion_planner/motion_planner.egg-info/dependency_links.txt
+[2.782s] writing entry points to ../../build/motion_planner/motion_planner.egg-info/entry_points.txt
+[2.783s] writing requirements to ../../build/motion_planner/motion_planner.egg-info/requires.txt
+[2.783s] writing top-level names to ../../build/motion_planner/motion_planner.egg-info/top_level.txt
+[2.787s] reading manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[2.825s] adding license file 'LICENSE'
+[2.828s] writing manifest file '../../build/motion_planner/motion_planner.egg-info/SOURCES.txt'
+[2.828s] running build
+[2.828s] running build_py
+[2.828s] running install
+[2.830s] running install_lib
+[2.832s] running install_data
+[2.832s] running install_egg_info
+[2.840s] removing '/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[2.842s] Copying ../../build/motion_planner/motion_planner.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages/motion_planner-0.0.0-py3.10.egg-info
+[2.846s] running install_scripts
+[2.894s] Installing motion_planner_node script to /home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/motion_planner
+[2.900s] writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log'
+[3.792s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/motion_planner' returned '0': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motion_planner build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/motion_planner/install.log --single-version-externally-managed install_data

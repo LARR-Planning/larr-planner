@@ -1,0 +1,28 @@
+[1.326s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8
+[1.436s] [35m[1mConsolidate compiler generated dependencies of target mppi_manager[0m
+[1.496s] [ 33%] [32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o[0m
+[2.176s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:349:68:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[2.177s]   349 |         cout << "????" << last_received_local_msg -> brake_flag << [01;31m[K\[m[Kn;
+[2.177s]       |                                                                    [01;31m[K^[m[K
+[5.825s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::timer_cb()[m[K’:
+[5.826s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:294:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Key_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.826s]   294 |         float [01;35m[Key_[m[K = ey;
+[5.826s]       |               [01;35m[K^~~[m[K
+[5.826s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:295:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_yaw_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.827s]   295 |         float [01;35m[Kego_yaw_[m[K = ego_yaw;
+[5.827s]       |               [01;35m[K^~~~~~~~[m[K
+[5.836s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::ref_path_cb(umv_msgs::msg::LocalRefPath_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.836s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:349:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+[5.836s]   349 |         cout << "????" << last_received_local_msg -> brake_flag << \[01;31m[Kn[m[K;
+[5.836s]       |                                                                     [01;31m[K^[m[K
+[5.845s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::virtual_target_cb(umv_msgs::msg::Obstacles_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.845s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:441:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.845s]   441 |                 float [01;35m[Kax[m[K = a_values[kk];
+[5.845s]       |                       [01;35m[K^~[m[K
+[5.845s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:423:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.845s]   423 |         int [01;35m[Kcheck[m[K = 0;
+[5.845s]       |             [01;35m[K^~~~~[m[K
+[13.427s] gmake[2]: *** [CMakeFiles/mppi_manager.dir/build.make:76: CMakeFiles/mppi_manager.dir/src/mppi.cpp.o] 오류 1
+[13.427s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mppi_manager.dir/all] 오류 2
+[13.431s] gmake: *** [Makefile:146: all] 오류 2
+[13.434s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi' returned '2': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8

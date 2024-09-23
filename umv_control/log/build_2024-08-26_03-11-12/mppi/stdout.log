@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target mppi_manager[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable mppi_manager[0m
+[100%] Built target mppi_manager
+-- Install configuration: ""
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/package_run_dependencies/mppi
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/parent_prefix_path/mppi
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/ament_prefix_path.sh
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/ament_prefix_path.dsv
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/path.sh
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/environment/path.dsv
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.bash
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.sh
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.zsh
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/local_setup.dsv
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.dsv
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/ament_index/resource_index/packages/mppi
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/cmake/mppiConfig.cmake
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/cmake/mppiConfig-version.cmake
+-- Installing: /home/vdcl/Desktop/larr_project/umv_control/install/mppi/share/mppi/package.xml

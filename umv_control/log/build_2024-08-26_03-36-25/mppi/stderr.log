@@ -1,0 +1,14 @@
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::timer_cb()[m[K’:
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:293:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Key_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  293 |         float [01;35m[Key_[m[K = ey;
+      |               [01;35m[K^~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:294:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_yaw_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  294 |         float [01;35m[Kego_yaw_[m[K = ego_yaw;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::virtual_target_cb(umv_msgs::msg::Obstacles_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:423:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  423 |                 float [01;35m[Kax[m[K = a_values[kk];
+      |                       [01;35m[K^~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:407:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  407 |         int [01;35m[Kcheck[m[K = 0;
+      |             [01;35m[K^~~~~[m[K

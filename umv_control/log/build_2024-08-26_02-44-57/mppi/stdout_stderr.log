@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target mppi_manager[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o[0m
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::timer_cb()[m[K’:
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:293:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Key_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  293 |         float [01;35m[Key_[m[K = ey;
+      |               [01;35m[K^~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:294:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_yaw_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  294 |         float [01;35m[Kego_yaw_[m[K = ego_yaw;
+      |               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::virtual_target_cb(umv_msgs::msg::Obstacles_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:394:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_cnt[m[K’
+  394 |         obs_cnt = msg.[01;31m[Kobs_cnt[m[K;
+      |                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:411:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_xs[m[K’
+  411 |             float obs_x = msg.[01;31m[Kobs_xs[m[K[i]; // 절대 좌표
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:412:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_ys[m[K’
+  412 |             float obs_y = msg.[01;31m[Kobs_ys[m[K[i]; // float(msg.target_array[i].pos_y); // 절대 좌표
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:413:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_ss[m[K’
+  413 |             float obs_s = msg.[01;31m[Kobs_ss[m[K[i];
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:414:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_eys[m[K’
+  414 |             float obs_ey = msg.[01;31m[Kobs_eys[m[K[i];
+      |                                [01;31m[K^~~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:415:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_yaws[m[K’
+  415 |             float obs_yaw = msg.[01;31m[Kobs_yaws[m[K[i]; // float(msg.target_array[i].yaw); // 절대 좌표
+      |                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:423:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  423 |                 float [01;35m[Kax[m[K = a_values[kk];
+      |                       [01;35m[K^~[m[K
+[01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:407:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  407 |         int [01;35m[Kcheck[m[K = 0;
+      |             [01;35m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/mppi_manager.dir/build.make:76: CMakeFiles/mppi_manager.dir/src/mppi.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mppi_manager.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

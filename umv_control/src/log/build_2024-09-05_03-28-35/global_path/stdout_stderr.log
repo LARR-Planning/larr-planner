@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/global_path/global_path.egg-info
+writing ../build/global_path/global_path.egg-info/PKG-INFO
+writing dependency_links to ../build/global_path/global_path.egg-info/dependency_links.txt
+writing entry points to ../build/global_path/global_path.egg-info/entry_points.txt
+writing requirements to ../build/global_path/global_path.egg-info/requires.txt
+writing top-level names to ../build/global_path/global_path.egg-info/top_level.txt
+writing manifest file '../build/global_path/global_path.egg-info/SOURCES.txt'
+reading manifest file '../build/global_path/global_path.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/global_path/global_path.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build
+creating /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib
+creating /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path
+copying global_path/dijkstras.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path
+copying global_path/planner.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path
+copying global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path
+copying global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path
+running install
+running install_lib
+creating /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path
+copying /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path/dijkstras.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path
+copying /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path/planner.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path
+copying /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path
+copying /home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/build/lib/global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path
+byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path/dijkstras.py to dijkstras.cpython-310.pyc
+byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path/planner.py to planner.cpython-310.pyc
+byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path/global_path.py to global_path.cpython-310.pyc
+running install_data
+creating /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/share/ament_index
+creating /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/share/ament_index/resource_index
+creating /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/share/ament_index/resource_index/packages
+copying resource/global_path -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/share/ament_index/resource_index/packages
+copying package.xml -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/share/global_path
+copying global_path/pawn_dict.pkl -> /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path/
+running install_egg_info
+Copying ../build/global_path/global_path.egg-info to /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/python3.10/site-packages/global_path-0.0.0-py3.10.egg-info
+running install_scripts
+Installing global_path script to /home/vdcl/Desktop/larr_project/umv_control/src/install/global_path/lib/global_path
+writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/src/build/global_path/install.log'

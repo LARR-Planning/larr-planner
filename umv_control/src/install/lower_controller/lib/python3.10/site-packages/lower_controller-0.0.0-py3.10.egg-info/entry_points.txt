@@ -1,0 +1,3 @@
+[console_scripts]
+lower_controller_node = lower_controller.lower_controller_node:main
+

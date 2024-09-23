@@ -1,0 +1,4 @@
+[console_scripts]
+path_plotter_node = utils.path_plotter_node:main
+virtual_target_node = utils.virtual_target_node:main
+

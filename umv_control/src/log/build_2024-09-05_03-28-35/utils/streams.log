@@ -1,0 +1,42 @@
+[1.220s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/utils': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/src/build/utils/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/utils build --build-base /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build install --record /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/install.log --single-version-externally-managed install_data
+[1.527s] running egg_info
+[1.527s] creating ../build/utils/utils.egg-info
+[1.527s] writing ../build/utils/utils.egg-info/PKG-INFO
+[1.528s] writing dependency_links to ../build/utils/utils.egg-info/dependency_links.txt
+[1.528s] writing entry points to ../build/utils/utils.egg-info/entry_points.txt
+[1.528s] writing requirements to ../build/utils/utils.egg-info/requires.txt
+[1.528s] writing top-level names to ../build/utils/utils.egg-info/top_level.txt
+[1.528s] writing manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[1.529s] reading manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[1.530s] adding license file 'LICENSE'
+[1.530s] writing manifest file '../build/utils/utils.egg-info/SOURCES.txt'
+[1.530s] running build
+[1.530s] running build_py
+[1.530s] creating /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build
+[1.531s] creating /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib
+[1.531s] creating /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils
+[1.531s] copying utils/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils
+[1.531s] copying utils/path_plotter_node.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils
+[1.531s] copying utils/virtual_target_node.py -> /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils
+[1.531s] running install
+[1.531s] running install_lib
+[1.532s] creating /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils
+[1.532s] copying /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils
+[1.532s] copying /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils/path_plotter_node.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils
+[1.532s] copying /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build/lib/utils/virtual_target_node.py -> /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils
+[1.533s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils/__init__.py to __init__.cpython-310.pyc
+[1.533s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils/path_plotter_node.py to path_plotter_node.cpython-310.pyc
+[1.535s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils/virtual_target_node.py to virtual_target_node.cpython-310.pyc
+[1.536s] running install_data
+[1.536s] creating /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/share/ament_index
+[1.536s] creating /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/share/ament_index/resource_index
+[1.536s] creating /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/share/ament_index/resource_index/packages
+[1.536s] copying resource/utils -> /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/share/ament_index/resource_index/packages
+[1.537s] copying package.xml -> /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/share/utils
+[1.537s] running install_egg_info
+[1.538s] Copying ../build/utils/utils.egg-info to /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages/utils-0.0.0-py3.10.egg-info
+[1.539s] running install_scripts
+[1.560s] Installing path_plotter_node script to /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/utils
+[1.560s] Installing virtual_target_node script to /home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/utils
+[1.561s] writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/src/build/utils/install.log'
+[1.588s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/src/utils' returned '0': PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/src/build/utils/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/src/install/utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/utils build --build-base /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/build install --record /home/vdcl/Desktop/larr_project/umv_control/src/build/utils/install.log --single-version-externally-managed install_data

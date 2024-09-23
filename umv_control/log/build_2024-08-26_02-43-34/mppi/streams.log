@@ -1,0 +1,47 @@
+[1.122s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8
+[1.248s] [ 33%] [32mBuilding CXX object CMakeFiles/mppi_manager.dir/src/mppi.cpp.o[0m
+[4.206s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::timer_cb()[m[K’:
+[4.207s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:293:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Key_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.207s]   293 |         float [01;35m[Key_[m[K = ey;
+[4.207s]       |               [01;35m[K^~~[m[K
+[4.207s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:294:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kego_yaw_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.207s]   294 |         float [01;35m[Kego_yaw_[m[K = ego_yaw;
+[4.207s]       |               [01;35m[K^~~~~~~~[m[K
+[4.216s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:[m[K In member function ‘[01m[Kvoid MppiClass::virtual_target_cb(umv_msgs::msg::Obstacles_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.216s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:388:13:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+[4.216s]   388 |             [01;31m[KROS_INFO[m[K("clear start");
+[4.216s]       |             [01;31m[K^~~~~~~~[m[K
+[4.221s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:396:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+[4.221s]   396 |         [01;31m[KROS_INFO[m[K("obstacle count check ...");
+[4.221s]       |         [01;31m[K^~~~~~~~[m[K
+[4.222s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:397:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_cnt[m[K’
+[4.222s]   397 |         obs_cnt = msg.[01;31m[Kobs_cnt[m[K;
+[4.222s]       |                       [01;31m[K^~~~~~~[m[K
+[4.228s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:408:9:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_WARN[m[K’ was not declared in this scope
+[4.228s]   408 |         [01;31m[KROS_WARN[m[K("#################### obs_cnt ####################");
+[4.228s]       |         [01;31m[K^~~~~~~~[m[K
+[4.228s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:415:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_xs[m[K’
+[4.229s]   415 |             float obs_x = msg.[01;31m[Kobs_xs[m[K[i]; // 절대 좌표
+[4.229s]       |                               [01;31m[K^~~~~~[m[K
+[4.229s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:416:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_ys[m[K’
+[4.229s]   416 |             float obs_y = msg.[01;31m[Kobs_ys[m[K[i]; // float(msg.target_array[i].pos_y); // 절대 좌표
+[4.229s]       |                               [01;31m[K^~~~~~[m[K
+[4.229s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:417:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_ss[m[K’
+[4.229s]   417 |             float obs_s = msg.[01;31m[Kobs_ss[m[K[i];
+[4.229s]       |                               [01;31m[K^~~~~~[m[K
+[4.229s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:418:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_eys[m[K’
+[4.230s]   418 |             float obs_ey = msg.[01;31m[Kobs_eys[m[K[i];
+[4.230s]       |                                [01;31m[K^~~~~~~[m[K
+[4.230s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:419:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<umv_msgs::msg::Obstacles_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kobs_yaws[m[K’
+[4.230s]   419 |             float obs_yaw = msg.[01;31m[Kobs_yaws[m[K[i]; // float(msg.target_array[i].yaw); // 절대 좌표
+[4.230s]       |                                 [01;31m[K^~~~~~~~[m[K
+[4.230s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:427:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kax[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.230s]   427 |                 float [01;35m[Kax[m[K = a_values[kk];
+[4.230s]       |                       [01;35m[K^~[m[K
+[4.230s] [01m[K/home/vdcl/Desktop/larr_project/umv_control/src/mppi/src/mppi.cpp:411:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.230s]   411 |         int [01;35m[Kcheck[m[K = 0;
+[4.230s]       |             [01;35m[K^~~~~[m[K
+[9.567s] gmake[2]: *** [CMakeFiles/mppi_manager.dir/build.make:76: CMakeFiles/mppi_manager.dir/src/mppi.cpp.o] 오류 1
+[9.567s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mppi_manager.dir/all] 오류 2
+[9.567s] gmake: *** [Makefile:146: all] 오류 2
+[9.570s] Invoked command in '/home/vdcl/Desktop/larr_project/umv_control/build/mppi' returned '2': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces:/home/vdcl/Desktop/larr_project/umv_control/install/utils:/home/vdcl/Desktop/larr_project/umv_control/install/lower_controller:/home/vdcl/Desktop/larr_project/umv_control/install/host_vehicle_filter:/home/vdcl/Desktop/larr_project/umv_control/install/global_path:/home/vdcl/Desktop/larr_project/umv_control/install/motion_planner:/opt/ros/humble LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vdcl/Desktop/larr_project/umv_control/build/mppi -- -j8 -l8

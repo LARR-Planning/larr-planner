@@ -1,0 +1,33 @@
+[1.701s] Invoking command in '/home/vdcl/Desktop/larr_project/umv_control/src/global_path': CMAKE_PREFIX_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs:/home/vdcl/Desktop/larr_project/umv_control/install/mppi:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces LD_LIBRARY_PATH=/home/vdcl/Desktop/larr_project/umv_control/install/umv_msgs/lib:/usr/local/cuda-12.2/lib64:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_ros_pkgs/lib:/home/vdcl/Desktop/larr_project/AirSim/ros2/install/airsim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/vdcl/Desktop/larr_project/umv_control/build/global_path/prefix_override:/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/global_path build --build-base /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build install --record /home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log --single-version-externally-managed install_data
+[1.970s] running egg_info
+[1.972s] writing ../../build/global_path/global_path.egg-info/PKG-INFO
+[1.972s] writing dependency_links to ../../build/global_path/global_path.egg-info/dependency_links.txt
+[1.972s] writing entry points to ../../build/global_path/global_path.egg-info/entry_points.txt
+[1.972s] writing requirements to ../../build/global_path/global_path.egg-info/requires.txt
+[1.973s] writing top-level names to ../../build/global_path/global_path.egg-info/top_level.txt
+[1.974s] reading manifest file '../../build/global_path/global_path.egg-info/SOURCES.txt'
+[1.975s] adding license file 'LICENSE'
+[1.976s] writing manifest file '../../build/global_path/global_path.egg-info/SOURCES.txt'
+[1.976s] running build
+[1.976s] running build_py
+[1.976s] copying global_path/dijkstras.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path
+[1.976s] copying global_path/planner.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path
+[1.980s] copying global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path
+[1.981s] copying global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path
+[1.981s] running install
+[1.981s] running install_lib
+[1.982s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path/dijkstras.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path
+[1.983s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path/planner.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path
+[1.983s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path/__init__.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path
+[1.983s] copying /home/vdcl/Desktop/larr_project/umv_control/build/global_path/build/lib/global_path/global_path.py -> /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path
+[1.983s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path/dijkstras.py to dijkstras.cpython-310.pyc
+[1.985s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path/planner.py to planner.cpython-310.pyc
+[1.990s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path/__init__.py to __init__.cpython-310.pyc
+[1.990s] byte-compiling /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path/global_path.py to global_path.cpython-310.pyc
+[1.990s] running install_data
+[1.991s] running install_egg_info
+[2.002s] removing '/home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path-0.0.0-py3.10.egg-info' (and everything under it)
+[2.003s] Copying ../../build/global_path/global_path.egg-info to /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/python3.10/site-packages/global_path-0.0.0-py3.10.egg-info
+[2.004s] running install_scripts
+[2.025s] Installing global_path script to /home/vdcl/Desktop/larr_project/umv_control/install/global_path/lib/global_path
+[2.025s] writing list of installed files to '/home/vdcl/Desktop/larr_project/umv_control/build/global_path/install.log'
